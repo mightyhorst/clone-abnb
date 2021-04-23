@@ -4,3 +4,15 @@
 .DropDown{
     display: block;
 }
+.DropDown > .Button{
+    
+}
+.DropDown > .Button > img.icon-bars{
+
+}
+.DropDown > .Button > img.profile{
+    
+}
+.DropDown > .Button > .notifications{
+    
+}

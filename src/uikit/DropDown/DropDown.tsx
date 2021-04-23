@@ -14,7 +14,9 @@ export function DropDown(props: IDropDown){
     return (<>
         <div className='DropDown'>
             <Button>
-                Header Search Icon goes here
+                <img className='icon-bars' alt='' src='/img/placeholder.png' />
+                <img className='profile' alt='' src='/img/placeholder.png' />
+                <div className='notifications' />
             </Button>
             <DropDownMenu>
                 {props.children}
