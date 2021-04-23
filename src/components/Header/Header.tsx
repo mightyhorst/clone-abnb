@@ -1,13 +1,13 @@
 import React from 'react';
 import './HeaderPage.css';
 
-interface IHeaderPage{
+interface IHeader{
     children?: React.ReactNode;
 }
 
-export function HeaderPage({children}: IHeaderPage){
+export function Header({children}: IHeader){
     return (<>
-        <header className='HeaderPage'>
+        <header className='Header'>
             {children}
         </header>
     </>);
