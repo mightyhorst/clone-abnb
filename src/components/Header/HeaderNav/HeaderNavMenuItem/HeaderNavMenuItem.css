@@ -1,15 +1,15 @@
 /**
- * @component DropDownMenuItem
+ * @component HeaderNavMenuItem
  */
- .DropDownMenuItem{
+ .HeaderNavMenuItem{
     display: block;
     position: relative;
 }
 
-.DropDownMenuItem.isBold{
+.HeaderNavMenuItem.isBold{
     font-weight: 600;
 }
-.DropDownMenuItem.hasNotifications{
+.HeaderNavMenuItem.hasNotifications{
     position: absolute;
     display: block;
     top: 0px;
@@ -19,6 +19,6 @@
     width: 5px;
     height: 5px;
 }
-.DropDownMenuItem.isDivider{
+.HeaderNavMenuItem.isDivider{
     border-top: 1px solid rgba(0,0,0,.1);
 }

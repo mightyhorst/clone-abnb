@@ -1,27 +1,26 @@
 import React from 'react';
-import './DropDownMenuItem.css';
+import './HeaderNavMenuItem.css';
 import clsx from 'clsx';
 
-interface IDropDownMenuItem{
+interface IHeaderNavMenuItem{
     children?: React.ReactNode;
     isBold?: boolean;
     hasNotifications?: boolean;
     isDivider?: boolean;
-    href?: string;
 }
 
-export function DropDownMenuItem(props: IDropDownMenuItem){
+export function HeaderNavMenuItem(props: IHeaderNavMenuItem){
     
     /**
      * @constant className
      *  This will build a string of class names
-     *  - it always has 'DropDownMenuItem'
+     *  - it always has 'HeaderNavMenuItem'
      *  - if props.isBold is true, it will apply "isBold" classname
      *  - if props.hasNotifications is true, it will apply "hasNotifcations" classname
      *  - if props.isDivider is true, it will apply "isDivider" classname
      */
     const className = clsx(
-        'DropDownMenuItem',
+        'HeaderNavMenuItem',
         {
             // className: true/false
             isBold: props.isBold,
@@ -32,11 +31,7 @@ export function DropDownMenuItem(props: IDropDownMenuItem){
 
     return (<>
         <li className={className}>
-            {!props.isDivider && props.children && props.href && 
-                <a href={props.href}>
-                    {props.children}
-                </a>
-            }
+            {!props.isDivider && props.children}
         </li>
     </>);
 }
