@@ -2,5 +2,9 @@
  * @component DropDownMenu
  */
  .DropDownMenu{
+    display: none;
+}
+.DropDownMenu.isOpen{
     display: block;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
 }
