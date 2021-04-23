@@ -7,11 +7,11 @@ import {
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <TripsPage>
         Trips Page go here
       </TripsPage>
-    </div>
+    </main>
   );
 }
 

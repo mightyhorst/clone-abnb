@@ -1,6 +1,8 @@
 import React from 'react';
 import './HeaderNav.css';
 
+// import { Button } from '@uikit/Button';
+import { Button } from '../../../uikit';
 import { HeaderNavMenu } from './HeaderNavMenu';
 import { HeaderNavMenuItem } from './HeaderNavMenuItem';
 
@@ -11,9 +13,9 @@ interface IHeaderNav{
 export function HeaderNav(props: IHeaderNav){
     return (<>
         <div className='HeaderNav'>
-            <button>
+            <Button>
                 Header Search Icon goes here
-            </button>
+            </Button>
             <HeaderNavMenu>
                 {props.children}
             </HeaderNavMenu>
