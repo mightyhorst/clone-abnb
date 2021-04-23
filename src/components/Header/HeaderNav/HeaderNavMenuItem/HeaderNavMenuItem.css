@@ -1,0 +1,24 @@
+/**
+ * @component HeaderNavMenuItem
+ */
+ .HeaderNavMenuItem{
+    display: block;
+    position: relative;
+}
+
+.HeaderNavMenuItem.isBold{
+    font-weight: 600;
+}
+.HeaderNavMenuItem.hasNotifications{
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 0px;
+    border-radius: 50%;
+    background: red;
+    width: 5px;
+    height: 5px;
+}
+.HeaderNavMenuItem.isDivider{
+    border-top: 1px solid rgba(0,0,0,.1);
+}

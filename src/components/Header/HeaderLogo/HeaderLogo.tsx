@@ -2,13 +2,13 @@ import React from 'react';
 import './HeaderLogo.css';
 
 interface IHeaderLogo{
-    children?: React.ReactNode;
+    // children?: React.ReactNode;
 }
 
-export function HeaderLogo({children}: IHeaderLogo){
+export function HeaderLogo(props: IHeaderLogo){
     return (<>
         <div className='HeaderLogo'>
-            {children}
+            Header SVG goes here
         </div>
     </>);
 }
