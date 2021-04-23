@@ -3,6 +3,9 @@
  */
  .DropDownMenu{
     display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .DropDownMenu.isOpen{
     display: block;
