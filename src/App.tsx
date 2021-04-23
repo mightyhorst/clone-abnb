@@ -8,9 +8,7 @@ import {
 function App() {
   return (
     <main className="App">
-      <TripsPage>
-        Trips Page go here
-      </TripsPage>
+      <TripsPage />
     </main>
   );
 }
