@@ -1,0 +1,12 @@
+/**
+ * @component CardTitle
+ */
+.CardTitle{
+    display: block;
+} 
+.CardTitle > h3{
+
+}
+.CardTitle > h2{
+
+}

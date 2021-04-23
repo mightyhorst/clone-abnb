@@ -1,0 +1,44 @@
+/**
+ * @component Button
+ */
+.Button{
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 40px;
+} 
+button.Button{
+
+} 
+a.Button{
+    text-decoration: none;
+    color: inherit;
+} 
+.Button:hover{
+    background-color: rgba(0,0,0,.01);
+}
+
+/**
+ * @variants Button
+ */
+.Button.default{
+    
+}  
+.Button.primary{
+    
+}  
+.Button.info{
+    
+}  
+.Button.danger{
+    
+}  
+.Button.warning{
+    
+}  
+.Button.success{
+    
+}  

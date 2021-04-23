@@ -5,6 +5,7 @@ import clsx from 'clsx';
 interface IButton{
     children: React.ReactNode;
     variant?: 'primary' | 'info';
+    href?: string;
     onClick?: () => void;
 }
 export function Button(props: IButton){
@@ -24,9 +25,15 @@ export function Button(props: IButton){
         'Button',
         props.variant, 
     );
-    return (
-        <button className={className} onClick={onClickHandler}>
-            {props.children}
-        </button>
-    );
+    return (<>
+        { props.href ?
+            <a className={className} href={props.href}>
+                {props.children}
+            </a>
+            :
+            <button className={className} onClick={onClickHandler}>
+                {props.children}
+            </button>
+        }
+    </>);
 }

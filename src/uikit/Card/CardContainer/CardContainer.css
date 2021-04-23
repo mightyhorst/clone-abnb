@@ -1,0 +1,22 @@
+/**
+ * @component CardContainer
+ */
+.CardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 4px;
+} 
+    
+/**
+* @variant Trip 
+*/
+.CardContainer.trip{
+    
+}
+/**
+* @variant recently visited
+*/
+.CardContainer.recent{
+    
+}
