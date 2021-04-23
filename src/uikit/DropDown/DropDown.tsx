@@ -8,6 +8,7 @@ import { DropDownMenuItem } from './DropDownMenuItem';
 
 interface IDropDown{
     children?: React.ReactNode;
+    isOpen?: boolean;
 }
 
 export function DropDown(props: IDropDown){
@@ -18,7 +19,7 @@ export function DropDown(props: IDropDown){
                 <img className='profile' alt='' src='/img/placeholder.png' />
                 <div className='notifications' />
             </Button>
-            <DropDownMenu>
+            <DropDownMenu isOpen={props.isOpen}>
                 {props.children}
             </DropDownMenu>
         </div>

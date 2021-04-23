@@ -31,9 +31,10 @@ export function LayoutStandard(props: ILayoutStandard) {
                     Switch to Hosting
                 </Button>
                 <Button onClick={onClickWorld}>
-                    world icon
+                    add the word icon
+                    <img src="/img/placeholder.png" alt="" />
                 </Button>
-                <DropDown>
+                <DropDown isOpen={true}>
                     <DropDown.Item isBold href="#">
                         Messages
                     </DropDown.Item>
