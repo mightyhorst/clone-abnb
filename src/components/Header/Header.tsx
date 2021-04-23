@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeaderPage.css';
+import './Header.css';
 
 interface IHeader{
     children?: React.ReactNode;
