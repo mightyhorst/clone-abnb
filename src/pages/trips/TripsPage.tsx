@@ -13,7 +13,7 @@ export function TripsPage({children}: ITripsPage){
     return (<>
         <section className='TripsPage'>
             <Header>
-                Header goes here
+                <Header.Logo> Header Logo goes here</Header.Logo>
             </Header>
             {children}
         </section>
