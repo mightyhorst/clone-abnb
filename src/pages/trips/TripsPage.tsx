@@ -9,7 +9,7 @@ interface ITripsPage{
     children?: React.ReactNode;
 }
 
-export function TripsPage({children}: ITripsPage){
+export function TripsPage(props: ITripsPage){
     return (<>
         <section className='TripsPage'>
             <Header>
@@ -28,7 +28,7 @@ export function TripsPage({children}: ITripsPage){
                     </Header.Nav.Item>
                 </Header.Nav>
             </Header>
-            {children}
+            {props.children}
         </section>
     </>);
 }
