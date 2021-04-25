@@ -1,7 +1,7 @@
 import React from 'react';
 import './TabPanel.css';
 
-import TabPanelContainer from './TabPanelContainer';
+import {TabPanelContainer} from './TabPanelContainer';
 
 interface ITabPanel{
     children: React.ReactNode;
