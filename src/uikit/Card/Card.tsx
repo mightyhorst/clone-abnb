@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card';
+import './Card.css';
 import clsx from 'clsx';
 
 import {CardContainer} from './CardContainer';

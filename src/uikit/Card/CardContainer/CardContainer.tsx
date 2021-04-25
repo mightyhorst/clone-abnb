@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardContainer';
+import './CardContainer.css';
 import clsx from 'clsx';
 
 interface ICardContainer{

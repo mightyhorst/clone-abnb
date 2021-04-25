@@ -1,0 +1,22 @@
+/**
+ * @component Tab
+ */
+ .Tab{
+    display: flex;
+    flex: 1 1 calc(100% / 3);
+} 
+    
+/**
+* @variant Trip 
+*/
+.TabContainer.trip{
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+}
+/**
+* @variant recently visited
+*/
+.TabContainer.recent{
+    border: 0;
+    box-shadow: none;
+}
