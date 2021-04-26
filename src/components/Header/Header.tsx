@@ -1,20 +1,22 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
-import {HeaderLogo} from './HeaderLogo';
-import {HeaderSearch} from './HeaderSearch';
-import {HeaderNav} from './HeaderNav';
+import { HeaderLogo } from "./HeaderLogo";
+import { HeaderSearch } from "./HeaderSearch";
+import { HeaderNav } from "./HeaderNav";
 
-interface IHeader{
-    children?: React.ReactNode;
+interface IHeader {
+  children?: React.ReactNode;
 }
 
-export function Header(props: IHeader){
-    return (<>
-        <header className='Header'>
-            {props.children}
-        </header>
-    </>);
+export function Header(props: IHeader) {
+  return (
+    <>
+      <header className="Header">
+        <div className="header-content">{props.children}</div>
+      </header>
+    </>
+  );
 }
 
 /**

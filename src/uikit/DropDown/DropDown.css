@@ -1,18 +1,15 @@
 /**
  * @component DropDown
  */
-.DropDown{
-    display: block;
+.DropDown {
+  display: block;
+  position: absolute;
 }
-.DropDown > .Button{
-    
+.DropDown > .Button {
 }
-.DropDown > .Button > img.icon-bars{
-
+.DropDown > .Button > img.icon-bars {
 }
-.DropDown > .Button > img.profile{
-    
+.DropDown > .Button > img.profile {
 }
-.DropDown > .Button > .notifications{
-    
+.DropDown > .Button > .notifications {
 }

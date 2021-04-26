@@ -1,24 +1,24 @@
 /**
  * @component DropDownMenuItem
  */
- .DropDownMenuItem{
-    display: block;
-    position: relative;
+.DropDownMenuItem {
+  display: block;
+  position: relative;
 }
 
-.DropDownMenuItem.isBold{
-    font-weight: 600;
+.DropDownMenuItem.isBold {
+  font-weight: 600;
 }
-.DropDownMenuItem.hasNotifications{
-    position: absolute;
-    display: block;
-    top: 0px;
-    right: 0px;
-    border-radius: 50%;
-    background: red;
-    width: 5px;
-    height: 5px;
+.DropDownMenuItem.hasNotifications {
+  position: absolute;
+  display: block;
+  top: 0px;
+  right: 0px;
+  border-radius: 50%;
+  background: red;
+  width: 5px;
+  height: 5px;
 }
-.DropDownMenuItem.isDivider{
-    border-top: 1px solid rgba(0,0,0,.1);
+.DropDownMenuItem.isDivider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
