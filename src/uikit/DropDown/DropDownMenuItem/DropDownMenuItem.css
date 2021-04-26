@@ -2,18 +2,25 @@
  * @component DropDownMenuItem
  */
 .DropDownMenuItem {
-  display: block;
-  position: relative;
+  display: flex;
+  padding: 10px 80px 10px 20px;
+  text-transform: capitalize;
 }
-
+.DropDownMenuItem a {
+  color: black;
+  text-decoration: none;
+}
+.DropDownMenuItem:hover {
+  background-color: #e7e7e7;
+}
 .DropDownMenuItem.isBold {
   font-weight: 600;
 }
-.DropDownMenuItem.hasNotifications {
+.hasNotifications {
   position: absolute;
   display: block;
-  top: 0px;
-  right: 0px;
+  right: 50%;
+  top: 15%;
   border-radius: 50%;
   background: red;
   width: 5px;
@@ -21,4 +28,5 @@
 }
 .DropDownMenuItem.isDivider {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
 }

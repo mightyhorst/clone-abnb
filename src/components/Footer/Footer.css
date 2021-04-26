@@ -1,6 +1,16 @@
 /**
  * @component Footer
  */
-.Footer{
-    
+.Footer {
+  background-color: #f7f7f7 !important;
+  border-top: 1px solid #dddddd !important;
+}
+.footer-container {
+  max-width: var(--page-shell-max-content-width, 1440px) !important;
+}
+@media (min-width: 1128px) {
+  .footer-container {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
 }

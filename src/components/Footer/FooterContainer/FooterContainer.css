@@ -1,6 +1,19 @@
 /**
  * @component FooterContainer
  */
-.FooterContainer{
-    
+.Footer-Top {
+  padding: 32px 0;
+}
+@media (min-width: 1128px) {
+  .Footer-Top {
+    -webkit-box-direction: normal !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    margin-left: -12px !important;
+    margin-right: -12px !important;
+  }
 }

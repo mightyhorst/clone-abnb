@@ -1,16 +1,54 @@
 /**
  * @component FooterBottom
  */
-.FooterBottom{
-    display: flex;
-    width: 100%;
-    border-top: 1px solid rgba(0,0,0,.1);
-    align-items: center;
-    justify-content: space-between;
+.FooterBottom {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  border-top: 1px solid #dddddd !important;
 }
-.FooterBottomLeft{
-    
+.bootom-content {
+  -webkit-box-direction: normal !important;
+  -webkit-box-orient: vertical !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
 }
-.FooterBottomRight{
-
+.FooterBottomRight {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  margin-bottom: 16px !important;
+}
+@media (min-width: 1128px) {
+  .bootom-content {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    -webkit-box-direction: reverse !important;
+    -webkit-box-orient: horizontal !important;
+    text-align: left !important;
+    -webkit-flex-direction: row-reverse !important;
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+    -webkit-align-items: stretch !important;
+    align-items: stretch !important;
+    -webkit-justify-content: space-between !important;
+    justify-content: space-between !important;
+  }
+  .FooterBottomRight {
+    margin-bottom: 0px !important;
+  }
 }

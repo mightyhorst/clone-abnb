@@ -1,13 +1,17 @@
 /**
  * @component DropDownMenu
  */
- .DropDownMenu{
-    display: none;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+.DropDownMenu {
+  display: none;
+  position: absolute;
+  top: 80%;
+  right: 0px;
+  border-radius: 5px;
+  padding-left: 0;
+  width: 250px;
+  background-color: white;
 }
-.DropDownMenu.isOpen{
-    display: block;
-    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+.DropDownMenu.isOpen {
+  /* display: block; */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }

@@ -1,19 +1,21 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
-import {FooterBottom} from './FooterBottom';
-import {FooterMenu} from './FooterMenu';
-import {FooterContainer} from './FooterContainer';
+import { FooterBottom } from "./FooterBottom";
+import { FooterMenu } from "./FooterMenu";
+import { FooterContainer } from "./FooterContainer";
 
-interface IFooter{
-    children: React.ReactNode;
+interface IFooter {
+  children: React.ReactNode;
 }
-export function Footer(props: IFooter){
-    return (<>
-        <footer className='Footer'>
-            {props.children}
-        </footer>
-    </>);
+export function Footer(props: IFooter) {
+  return (
+    <>
+      <footer className="Footer">
+        <div className="footer-container">{props.children}</div>
+      </footer>
+    </>
+  );
 }
 
 /**
