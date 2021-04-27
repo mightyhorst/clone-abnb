@@ -9,8 +9,8 @@ export function FooterBottom(props: IFooterBottom) {
     <>
       <footer className="FooterBottom">
         <div className="bootom-content">
-          <FooterBottomLeft />
           <FooterBottomRight />
+          <FooterBottomLeft />
         </div>
       </footer>
     </>
