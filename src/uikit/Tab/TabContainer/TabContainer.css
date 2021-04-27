@@ -1,6 +1,21 @@
 /**
  * @component TabContainer
  */
-.TabContainer{
-
+.TabContainer .page-heading {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  color: #222222;
+}
+.TabContainer .page-heading h1 {
+  color: inherit;
+  font-size: 1.5em;
+  line-height: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+.tab-heading {
+  margin: 16px -20px;
+  border-bottom: 1px solid lightgray;
 }

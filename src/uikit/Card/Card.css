@@ -1,22 +1,25 @@
 /**
  * @component Card
  */
-.Card{
-    display: flex;
-    flex: 1 1 calc(100% / 3);
-} 
-    
+.Card {
+  display: flex;
+  display: block;
+  width: 33.33%;
+  float: left;
+  text-align: left;
+}
+
 /**
 * @variant Trip 
 */
-.CardContainer.trip{
-    border: 1px solid rgba(0,0,0,.1);
-    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+.CardContainer.trip {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 /**
 * @variant recently visited
 */
-.CardContainer.recent{
-    border: 0;
-    box-shadow: none;
+.CardContainer.recent {
+  border: 0;
+  box-shadow: none;
 }

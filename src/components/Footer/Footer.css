@@ -2,15 +2,18 @@
  * @component Footer
  */
 .Footer {
-  background-color: #f7f7f7 !important;
-  border-top: 1px solid #dddddd !important;
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #f7f7f7;
+  border-top: 1px solid #dddddd;
 }
 .footer-container {
-  max-width: var(--page-shell-max-content-width, 1440px) !important;
+  max-width: var(--page-shell-max-content-width, 1440px);
 }
 @media (min-width: 1128px) {
   .footer-container {
-    padding-left: 80px !important;
-    padding-right: 80px !important;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }

@@ -1,22 +1,58 @@
 /**
  * @component Tab
  */
- .Tab{
-    display: flex;
-    flex: 1 1 calc(100% / 3);
-} 
-    
+.Tab {
+  display: flex;
+  flex: 1 1 calc(100% / 3);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: inherit;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  background: transparent;
+  display: inline-block;
+  padding: 16px;
+  font-weight: 600;
+  border: none;
+  color: #717171;
+}
+.Tab.isActive {
+  color: black;
+}
+.Tab.isActive:after {
+  content: "";
+  display: block;
+  padding-top: 16px;
+  margin-bottom: -16px;
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: #222222;
+  -webkit-border-image: #222222 2px;
+  border-image: #222222 2px;
+}
 /**
 * @variant Trip 
 */
-.TabContainer.trip{
-    border: 1px solid rgba(0,0,0,.1);
-    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+.TabContainer.trip {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 /**
 * @variant recently visited
 */
-.TabContainer.recent{
-    border: 0;
-    box-shadow: none;
+.TabContainer.recent {
+  border: 0;
+  box-shadow: none;
 }

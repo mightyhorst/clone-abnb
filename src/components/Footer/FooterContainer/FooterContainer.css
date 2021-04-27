@@ -6,14 +6,14 @@
 }
 @media (min-width: 1128px) {
   .Footer-Top {
-    -webkit-box-direction: normal !important;
-    -webkit-box-orient: horizontal !important;
-    -webkit-flex-direction: row !important;
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
-    padding-top: 48px !important;
-    padding-bottom: 48px !important;
-    margin-left: -12px !important;
-    margin-right: -12px !important;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 48px;
+    padding-bottom: 140px;
+    margin-left: -12px;
+    margin-right: -12px;
   }
 }
