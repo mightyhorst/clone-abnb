@@ -1,6 +1,13 @@
 /**
  * @component TabLayout
  */
- .TabLayout{
-
+.TabLayout {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 130px auto;
+  max-width: 1600px;
+  padding-bottom: 65px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
