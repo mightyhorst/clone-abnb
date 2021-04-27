@@ -52,3 +52,10 @@
     margin-bottom: 0px !important;
   }
 }
+.FooterBottomRight ul {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
