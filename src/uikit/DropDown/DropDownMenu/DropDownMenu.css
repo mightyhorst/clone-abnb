@@ -4,7 +4,7 @@
 .DropDownMenu {
   display: none;
   position: absolute;
-  top: 80%;
+  top: 110%;
   right: 0px;
   border-radius: 5px;
   padding-left: 0;
@@ -12,6 +12,6 @@
   background-color: white;
 }
 .DropDownMenu.isOpen {
-  /* display: block; */
+  display: block;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }

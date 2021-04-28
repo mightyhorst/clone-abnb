@@ -6,7 +6,7 @@ import { Tab, Card } from "../../uikit";
 
 interface ITripsPage {}
 
-// const upcomingTab = <>todo</>;
+const upcomingTab = <>todo</>;
 
 const pastTab = (
   <>
@@ -115,7 +115,7 @@ export function TripsPage(props: ITripsPage) {
             <Tab isActive>Past</Tab>
           </Tab.Container>
           <Tab.Panel.Container>
-            {/* <Tab.Panel>{upcomingTab}</Tab.Panel> */}
+            <Tab.Panel>{upcomingTab}</Tab.Panel>
             <Tab.Panel>{pastTab}</Tab.Panel>
           </Tab.Panel.Container>
         </Tab.Layout>
