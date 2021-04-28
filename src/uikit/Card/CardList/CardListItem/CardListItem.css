@@ -16,10 +16,10 @@
   align-items: center;
 }
 .CardListItem img {
-  flex: 0 0 40px;
   height: 40px;
   width: 40px;
   border-radius: 2px;
+  flex: 0;
 }
 .CardListItem span {
   flex: 1 1 80%;

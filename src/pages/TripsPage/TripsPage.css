@@ -7,3 +7,7 @@
 .card-content {
   padding: 25px;
 }
+li.CardListItem .CardImage {
+  display: inline-block;
+  margin: -8px 10px 0 -10px;
+}
