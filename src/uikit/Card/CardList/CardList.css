@@ -1,6 +1,7 @@
 /**
  * @component CardList
  */
-.CardList{
-    display: block;
-} 
+.CardList {
+  display: block;
+  padding: 0;
+}

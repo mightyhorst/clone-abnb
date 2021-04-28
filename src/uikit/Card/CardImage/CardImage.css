@@ -1,6 +1,10 @@
 /**
  * @component CardImage
  */
-.CardImage{
-    display: block;
-} 
+.CardImage {
+  display: block;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 50%;
+  object-fit: cover;
+}

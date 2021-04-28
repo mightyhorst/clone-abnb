@@ -1,6 +1,9 @@
 /**
 *
 */
-.TripsPage{
-    display: block;
+.TripsPage {
+  display: block;
+}
+.card-content {
+  padding: 25px;
 }

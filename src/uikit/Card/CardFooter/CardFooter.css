@@ -5,6 +5,9 @@
   display: flex;
   height: 50px;
   width: 100%;
+  border-top: 1px solid;
+  margin-top: -42px;
+  padding: 15px 100px;
 }
 .CardFooter > a {
   display: flex;
