@@ -11,3 +11,26 @@ li.CardListItem .CardImage {
   display: inline-block;
   margin: -8px 10px 0 -10px;
 }
+.visit-help-center p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 24px auto;
+  padding-top: 24px;
+  border-top: 1px solid rgb(235, 235, 235);
+}
+.visit-help-center a {
+  font-size: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+  color: #222222;
+  text-decoration: underline;
+  border-radius: 4px;
+  font-weight: 600;
+  outline: none;
+}
+.info-div p {
+  font-size: 14px;
+  line-height: 18px;
+}

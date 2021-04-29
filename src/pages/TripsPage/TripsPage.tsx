@@ -6,7 +6,22 @@ import { Tab, Card } from "../../uikit";
 
 interface ITripsPage {}
 
-const upcomingTab = <>todo</>;
+const upcomingTab = (
+  <>
+    <div className="info-div">
+      <p>
+        You don’t have any past trips yet—but when you do, you’ll find them
+        here.
+      </p>
+      <Card.Image imgSrc="/img/Capture.PNG" />
+    </div>
+    <div className="visit-help-center">
+      <p>
+        Can’t find your reservation here?<a href="#"> Visit the Help Centre.</a>
+      </p>
+    </div>
+  </>
+);
 
 const pastTab = (
   <>
@@ -102,6 +117,11 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
     </Card.Container>
+    <div className="visit-help-center">
+      <p>
+        Can’t find your reservation here?<a href="#"> Visit the Help Centre.</a>
+      </p>
+    </div>
   </>
 );
 
