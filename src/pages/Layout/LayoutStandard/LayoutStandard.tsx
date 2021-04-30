@@ -25,7 +25,7 @@ export function LayoutStandard(props: ILayoutStandard) {
           <nav className="header-navbar">
             <div className="nav-btns">
               
-              <a href="#" className="btn btn-host">
+              <a href="#" className="btn-host">
                 Switch to Hosting
               </a>
               

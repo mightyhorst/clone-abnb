@@ -43,7 +43,7 @@
 .btn-host {
   height: 100%;
   overflow: hidden;
-  word-wrap: nowrap;
+  white-space: nowrap;
   cursor: pointer;
   display: flex;
   margin: 0px;
