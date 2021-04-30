@@ -47,7 +47,7 @@ export function LayoutStandard(props: ILayoutStandard) {
             </div>
             <div className="profile-section">
               <div className="dropdown-menu-section">
-                <DropDown isOpen={true}>
+                <DropDown isOpen={false}>
                   <DropDown.Item isBold href="#">
                     Messages
                   </DropDown.Item>
