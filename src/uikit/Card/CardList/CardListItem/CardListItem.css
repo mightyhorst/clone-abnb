@@ -21,10 +21,7 @@
   border-radius: 2px;
   flex: 0;
 }
-.CardListItem .CardImage {
-  display: inline-block;
-  margin: -8px 10px 0 -10px;
-}
+
 .CardListItem span {
   flex: 1 1 80%;
   height: 100%;
