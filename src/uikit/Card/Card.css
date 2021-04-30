@@ -38,7 +38,3 @@
   padding: 25px;
   flex: 1 1;
 }
-li.CardListItem .CardImage {
-  display: inline-block;
-  margin: -8px 10px 0 -10px;
-}
