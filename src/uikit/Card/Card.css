@@ -5,6 +5,7 @@
   display: flex;
   display: block;
   width: 30%;
+  min-width: 360px;
   float: left;
   text-align: left;
   background: white;

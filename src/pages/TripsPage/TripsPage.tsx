@@ -122,7 +122,7 @@ const pastTab = (
 export function TripsPage(props: ITripsPage) {
   return (
     <>
-      <Layout.Standard pageName="TripsPage">
+      <Layout.Standard pageName="TripsPage" hideSearch>
         <Tab.Layout>
           <Tab.Container>
             <Tab>Upcoming</Tab>

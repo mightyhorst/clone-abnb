@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import './Card.responsive.css';
 import clsx from 'clsx';
 
 import {CardContainer} from './CardContainer';

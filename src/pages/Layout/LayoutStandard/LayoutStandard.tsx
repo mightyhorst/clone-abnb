@@ -8,6 +8,7 @@ import { Button, DropDown } from "../../../uikit";
 interface ILayoutStandard {
   children?: React.ReactNode;
   pageName: string;
+  hideSearch?: boolean;
 }
 
 export function LayoutStandard(props: ILayoutStandard) {
@@ -19,15 +20,15 @@ export function LayoutStandard(props: ILayoutStandard) {
     <>
       <Header>
         <Header.Logo />
-        <Header.Search />
+        {!props.hideSearch && <Header.Search />}
         <Header.Nav>
           <nav className="header-navbar">
             <div className="nav-btns">
-              <span className="_xmerqz">
-                <a href="#" className="host-btn">
-                  Switch to Hosting
-                </a>
-              </span>
+              
+              <a href="#" className="btn btn-host">
+                Switch to Hosting
+              </a>
+              
               <div className="globe-div">
                 <Button onClick={onClickWorld}>
                   <div className="globe-icon" aria-hidden="true">

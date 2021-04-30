@@ -4,123 +4,116 @@
 .LayoutStandard {
 }
 .header-navbar {
-  -webkit-box-pack: end !important;
-  -ms-flex-pack: end !important;
-  -webkit-box-align: center !important;
-  -ms-flex-align: center !important;
-  position: relative !important;
-  display: -webkit-box !important;
-  display: -moz-box !important;
-  display: -ms-flexbox !important;
-  display: -webkit-flex !important;
-  display: flex !important;
-  -webkit-align-items: center !important;
-  align-items: center !important;
-  -webkit-justify-content: flex-end !important;
-  justify-content: flex-end !important;
-  height: 80px !important;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  height: 80px;
 }
 .nav-btns {
-  -webkit-box-pack: end !important;
-  -ms-flex-pack: end !important;
-  display: -webkit-box !important;
-  display: -moz-box !important;
-  display: -ms-flexbox !important;
-  display: -webkit-flex !important;
-  display: flex !important;
-  -webkit-flex: auto !important;
-  -ms-flex: 1 1 auto !important;
-  flex: auto !important;
-  -webkit-justify-content: flex-end !important;
-  justify-content: flex-end !important;
-  margin-right: 8px !important;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: auto;
+  -ms-flex: 1 1 auto;
+  flex: auto;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-right: 8px;
 }
-._xmerqz {
-  align-self: center !important;
-}
-.host-btn {
-  cursor: pointer !important;
-  display: inline-block !important;
-  margin: 0px !important;
-  position: relative !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  width: auto !important;
-  touch-action: manipulation !important;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
-    "Helvetica Neue", sans-serif !important;
-  font-size: 18px !important;
-  line-height: 18px !important;
-  font-weight: 600 !important;
+
+.btn-host {
+  cursor: pointer;
+  display: flex;
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  touch-action: manipulation;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   border-radius: 8px;
-  /* border-width: 1px !important; */
-  /* border-style: solid !important; */
-  outline: none !important;
-  padding: 7px 15px !important;
-  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
-    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
-  /* border-color: rgb(34, 34, 34) !important; */
-  /* background: rgb(255, 255, 255) !important; */
-  color: rgb(34, 34, 34) !important;
+  outline: none;
+  padding: 7px 15px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  color: rgb(34, 34, 34);
+  align-items: center;
+  justify-content: center;
 }
-.host-btn:hover {
+.btn-host:hover {
   background: #e7e7e7;
   border-radius: 50px;
 }
 .globe-div {
-  position: relative !important;
-  display: inline !important;
+  position: relative;
+  display: inline;
 }
 .globe-div > button {
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  background: transparent !important;
-  border: 0px !important;
-  cursor: pointer !important;
-  display: inline-block !important;
-  font-family: inherit !important;
-  font-size: 14px !important;
-  font-weight: 600 !important;
-  line-height: 18px !important;
-  margin: 0px !important;
-  outline: none !important;
-  overflow: visible !important;
-  padding: 12px !important;
-  text-align: inherit !important;
-  text-decoration: none !important;
-  -webkit-user-select: auto !important;
-  -moz-user-select: auto !important;
-  -ms-user-select: auto !important;
-  user-select: auto !important;
-  position: relative !important;
-  white-space: nowrap !important;
-  z-index: 1 !important;
-  color: #222222 !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0px;
+  outline: none;
+  overflow: visible;
+  padding: 12px;
+  text-align: inherit;
+  text-decoration: none;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  color: #222222;
 }
 .globe-div > button::before {
-  border-radius: 22px !important;
-  bottom: 0px !important;
-  content: "" !important;
-  left: -3px !important;
-  position: absolute !important;
-  right: -3px !important;
-  top: 0px !important;
-  z-index: 0 !important;
+  border-radius: 22px;
+  bottom: 0px;
+  content: "";
+  left: -3px;
+  position: absolute;
+  right: -3px;
+  top: 0px;
+  z-index: 0;
 }
 .globe-icon {
-  -webkit-box-align: center !important;
-  -ms-flex-align: center !important;
-  -webkit-align-items: center !important;
-  align-items: center !important;
-  display: -webkit-box !important;
-  display: -moz-box !important;
-  display: -ms-flexbox !important;
-  display: -webkit-flex !important;
-  display: flex !important;
-  height: 18px !important;
-  position: relative !important;
-  z-index: 1 !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 18px;
+  position: relative;
+  z-index: 1;
 }
 .globe-icon svg {
   display: block;
@@ -133,6 +126,6 @@
   border-radius: 50%;
 }
 .profile-section {
-  display: inline !important;
-  position: relative !important;
+  display: inline;
+  position: relative;
 }
