@@ -34,9 +34,16 @@
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   margin-right: 8px;
+  /**
+  * @todo responsive
+  */
+  height: 42px;
 }
 
 .btn-host {
+  height: 100%;
+  overflow: hidden;
+  word-wrap: nowrap;
   cursor: pointer;
   display: flex;
   margin: 0px;

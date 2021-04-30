@@ -1,5 +1,5 @@
-import React from "react";
-import "./DropDown.css";
+import React, {useState} from 'react';
+import './DropDown.css';
 
 // import { Button } from '@uikit/Button';
 import { Button } from "..";
@@ -12,10 +12,25 @@ interface IDropDown {
 }
 
 export function DropDown(props: IDropDown) {
+  /**
+   * @constant isOpen - toggle menu
+   */
+  const [isOpen, setIsOpen] = useState(props.isOpen);
+
+  /**
+   * @event onClick
+   */
+  const onClickHandler = () => {
+    setIsOpen(!isOpen);
+  }
+
+  /**
+   * @render
+   */
   return (
     <>
       <div className="DropDown">
-        <button className="menu-btn">
+        <button className="menu-btn" onClick={onClickHandler}>
           <div className="main-navigation-menu">
             <svg
               viewBox="0 0 32 32"
@@ -44,7 +59,7 @@ export function DropDown(props: IDropDown) {
           </div>
           <div className="notification-mark">1</div>
         </button>
-        <DropDownMenu isOpen={props.isOpen}>{props.children}</DropDownMenu>
+        <DropDownMenu isOpen={isOpen}>{props.children}</DropDownMenu>
       </div>
     </>
   );
