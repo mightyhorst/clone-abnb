@@ -4,13 +4,7 @@
 .TripsPage {
   display: block;
 }
-.card-content {
-  padding: 25px;
-}
-li.CardListItem .CardImage {
-  display: inline-block;
-  margin: -8px 10px 0 -10px;
-}
+
 .visit-help-center p {
   font-size: 14px;
   line-height: 18px;

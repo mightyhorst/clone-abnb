@@ -13,6 +13,7 @@
   margin: 0 18px;
   height: 400px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 /**
@@ -28,4 +29,16 @@
 .CardContainer.recent {
   border: 0;
   box-shadow: none;
+}
+
+/**
+* @todo organise
+*/
+.card-content {
+  padding: 25px;
+  flex: 1 1;
+}
+li.CardListItem .CardImage {
+  display: inline-block;
+  margin: -8px 10px 0 -10px;
 }
