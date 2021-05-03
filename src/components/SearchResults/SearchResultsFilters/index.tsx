@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './SearchResultsFilters.css';
+
 interface ISearchResultsFilters{
     children: React.ReactNode;
 }

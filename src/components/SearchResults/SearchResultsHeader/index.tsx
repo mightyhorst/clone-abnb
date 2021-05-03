@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './SearchResultsHeader.css';
+
 interface ISearchResultsHeader{
     children: React.ReactNode;
 }
