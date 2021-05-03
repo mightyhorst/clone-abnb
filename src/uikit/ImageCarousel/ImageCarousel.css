@@ -1,13 +1,14 @@
 /**
  * @component ImageCarousel
  */
-.ImageCarousel{
+.ImageCarousel, 
+.image-carousel{
     /**
      * @display
      */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     /**
      * @theme
      */
@@ -35,3 +36,25 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+
+.image-carousel__title{
+
+}
+.image-carousel__left{
+
+}
+.image-carousel__left > i.fa.fa-chevron-left{
+
+}
+.image-carousel__right{
+
+}
+.image-carousel__right i.fa.fa-chevron-right{
+
+}
+.image-carousel__nav{
+
+}
+.image-carousel__nav-item{
+
+}

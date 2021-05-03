@@ -59,7 +59,7 @@ export function ImageCarousel({children, title}: IImageCarousel){
                 {
                     images.map((img) => {
                         return (
-                            <li className={clsx('image-carousel-nav-item', {isActive: img.isActive})}>
+                            <li className={clsx('image-carousel__nav-item', {isActive: img.isActive})}>
                                 <img src={img.imgSrc} alt={img.id} />
                             </li>
                         );
