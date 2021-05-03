@@ -49,32 +49,32 @@
     .Column.Full,
     .Column.full{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     .Column.Half,
     .Column.half{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     .Column.Third,
     .Column.third{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     .Column.TwoThirds,
     .Column.two-thirds{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     .Column.Quarter,
     .Column.quarter{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     .Column.ThreeQuarters,
     .Column.three-quarters{
         width: 100%;
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
 }
 
