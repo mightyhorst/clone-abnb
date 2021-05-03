@@ -3,29 +3,23 @@ import "./SearchPage.css";
 
 import { Layout } from "../Layout";
 import { 
-    Tab,
-    Card, 
+  Column,
 } from "../../uikit";
 
-interface ISearchPage {}
+interface ISearchPage {
 
-const upcomingTab = (
-  <>
-
-  </>
-);
-
-const pastTab = (
-  <>
-    
-  </>
-);
+}
 
 export function SearchPage(props: ISearchPage) {
   return (
     <>
       <Layout.Standard pageName="SearchPage" hideSearch>
-        Hello
+        <Column.Container>
+          <Column.Half>
+          </Column.Half>
+          <Column.Half>
+          </Column.Half>
+        </Column.Container>
       </Layout.Standard>
     </>
   );

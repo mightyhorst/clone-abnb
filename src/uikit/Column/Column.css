@@ -1,0 +1,153 @@
+/**
+ * @container Column
+ */
+.Column{
+    display: block;
+    height: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+/**
+ * @variant Columns
+ * • full, half, thirds, quarters
+ */
+.Column.Full,
+.Column.full{
+    width: 100%;
+    flex-basis: 100%;
+}
+.Column.Half,
+.Column.half{
+    width: 50%;
+    flex-basis: 50%;
+}
+.Column.Third,
+.Column.third{
+    width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
+}
+.Column.TwoThirds,
+.Column.two-thirds{
+    width: calc( 100% * 2/3);
+    flex-basis: calc( 100% * 2/3);
+}
+.Column.Quarter,
+.Column.quarter{
+    width: calc( 100% * 1/4);
+    flex-basis: calc( 100% * 1/4);
+}
+.Column.ThreeQuarters,
+.Column.three-quarters{
+    width: calc( 100% * 3/4);
+    flex-basis: calc( 100% * 3/4);
+}
+
+/**
+ * @responsive Laptop
+ */
+@media (min-width: 900px) and (max-width: 1200px){
+    .Column.Full,
+    .Column.full{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Half,
+    .Column.half{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Third,
+    .Column.third{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.TwoThirds,
+    .Column.two-thirds{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Quarter,
+    .Column.quarter{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.ThreeQuarters,
+    .Column.three-quarters{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+
+/**
+ * @responsive Tablet
+ */
+ @media (min-width: 480px) and (max-width: 900px){
+    .Column.Full,
+    .Column.full{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Half,
+    .Column.half{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Third,
+    .Column.third{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.TwoThirds,
+    .Column.two-thirds{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Quarter,
+    .Column.quarter{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.ThreeQuarters,
+    .Column.three-quarters{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+
+/**
+ * @responsive phone
+ */
+ @media (max-width: 480px){
+    .Column.Full,
+    .Column.full{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Half,
+    .Column.half{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Third,
+    .Column.third{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.TwoThirds,
+    .Column.two-thirds{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.Quarter,
+    .Column.quarter{
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .Column.ThreeQuarters,
+    .Column.three-quarters{
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
