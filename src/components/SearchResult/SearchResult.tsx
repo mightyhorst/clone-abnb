@@ -10,7 +10,7 @@ import './SearchResult.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+// import {} from '..';
 
 /**
  * @interface ISearchResult

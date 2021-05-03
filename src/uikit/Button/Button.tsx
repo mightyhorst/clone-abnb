@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 interface IButton{
     children: React.ReactNode;
-    variant?: 'primary' | 'info';
+    variant?: 'primary' | 'info' | 'small';
     href?: string;
     onClick?: () => void;
 }

@@ -24,6 +24,9 @@ a.Button{
 /**
  * @variants Button
  */
+.Button.small{
+
+} 
 .Button.default{
     
 }  
