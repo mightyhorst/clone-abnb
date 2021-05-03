@@ -11,39 +11,27 @@ import './ImageCarousel.responsive.css';
  * @requires Components
  */
 
+interface IImg{
+    id: string;
+    imgSrc: string;
+    isActive?: boolean;
+}
+
 /**
  * @interface IImageCarousel
  * @description ImageCarousel props types
  */
 export interface IImageCarousel{
-    children?: React.ReactNode;
     title: string;
+    images: IImg[];
 }
-
-const images = [
-    {
-        id: '1',
-        imgSrc: '/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg',
-        isActive: true,
-    },
-    {
-        id: '2',
-        imgSrc: '/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg',
-        isActive: false,
-    },
-    {
-        id: '3',
-        imgSrc: '/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg',
-        isActive: false,
-    },
-];
 
 /**
  * @function ImageCarousel
  * @param props - props for children 
  * @returns {ImageCarousel}
  */
-export function ImageCarousel({children, title}: IImageCarousel){
+export function ImageCarousel({title, images}: IImageCarousel){
     return (<>
         <article className='ImageCarousel image-carousel'>
             <h3 className='image-carousel__title'>
@@ -59,7 +47,7 @@ export function ImageCarousel({children, title}: IImageCarousel){
                 {
                     images.map((img) => {
                         return (
-                            <li className={clsx('image-carousel__nav-item', {isActive: img.isActive})}>
+                            <li key={img.id} className={clsx('image-carousel__nav-item', {isActive: img.isActive})}>
                                 <img src={img.imgSrc} alt={img.id} />
                             </li>
                         );

@@ -35,3 +35,54 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+
+/**
+ * @component SearchItem.Details
+ */
+.SearchItemDetails{
+    /**
+     * @display
+     */
+     display: flex;
+}
+
+/**
+ * @component SearchItem.Header
+ */
+.SearchItemHeader{
+
+}
+.SearchItemHeader h4{
+
+}
+.SearchItemHeader h3{
+    
+}
+
+/**
+ * @component SearchItem.Stats
+ */
+.SearchItemStats{
+
+}
+
+/**
+ * @component SearchItem.Footer
+ */
+.SearchItemFooter{
+
+}
+
+/**
+ * @component SearchItem.Ratings
+ */
+.SearchItemRatings{
+
+}
+
+ /**
+ * @component SearchItem.Price
+ */
+.SearchItemPrice{
+
+}
