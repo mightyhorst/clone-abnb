@@ -86,32 +86,32 @@
     .Column.Full,
     .Column.full{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Half,
     .Column.half{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Third,
     .Column.third{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.TwoThirds,
     .Column.two-thirds{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Quarter,
     .Column.quarter{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.ThreeQuarters,
     .Column.three-quarters{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
 }
 
@@ -119,35 +119,35 @@
 /**
  * @responsive phone
  */
- @media (max-width: 480px){
+ @media (min-width: 0px) and (max-width: 480px){
     .Column.Full,
     .Column.full{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Half,
     .Column.half{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Third,
     .Column.third{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.TwoThirds,
     .Column.two-thirds{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.Quarter,
     .Column.quarter{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
     .Column.ThreeQuarters,
     .Column.three-quarters{
         width: 100%;
-        flex-basis: 100%;
+        flex: 0 0 100%;
     }
 }
