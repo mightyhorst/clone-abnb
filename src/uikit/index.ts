@@ -5,3 +5,4 @@ export * from './Tab';
 export * from './Column';
 export * from './Map';
 export * from './Icon';
+export * from './ImageCarousel';

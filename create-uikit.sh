@@ -31,7 +31,7 @@ sed "s/TemplateComponent/$component/g" ./src/components/TemplateComponent/Templa
 echo "✅ done"
 
 echo "👉 creating a barrel file called: index.ts"
-sed "s/TemplateComponent/$component/g" ./src/components/TemplateComponent/index.tsx >> "./src/$uikit_or_components/$component/index.ts"
+sed "s/TemplateComponent/$component/g" ./src/components/TemplateComponent/index.ts >> "./src/$uikit_or_components/$component/index.ts"
 echo "✅ done"
 
 # already exported...
