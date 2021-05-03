@@ -8,10 +8,14 @@ import {
 } from "../../uikit";
 
 interface ISearchPage {
-
+  map?: {
+    lat: number;
+    lng: number;
+    zoom?: number;
+  }
 }
 
-export function SearchPage(props: ISearchPage) {
+export function SearchPage({map}: ISearchPage) {
   return (
     <>
       <Layout.Standard pageName="SearchPage" hideSearch>
@@ -21,10 +25,10 @@ export function SearchPage(props: ISearchPage) {
           <Column.Half>
             <Map 
               center={{
-                lat: 90,
-                lng: 100,
+                lat: map?.lat || 90,
+                lng: map?.lng || 90,
               }}
-              zoom={1}
+              zoom={map?.zoom || 1}
             />
           </Column.Half>
         </Column.Container>
