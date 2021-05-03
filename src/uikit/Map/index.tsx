@@ -5,7 +5,7 @@ import './Map.css';
 
 import { GOOGLE_MAP_KEY } from './config';
 
-const AnyReactComponent = ({ text, lat, lng }) => <div>{text}</div>;
+const TodoMakeMarker = ({ text, lat, lng }) => <div>{text}</div>;
 
 interface IMap {
     center: {
@@ -24,7 +24,7 @@ export function Map(props: IMap) {
                     defaultCenter={props.center}
                     defaultZoom={props.zoom}
                 >
-                    <AnyReactComponent
+                    <TodoMakeMarker
                         lat={59.955413}
                         lng={30.337844}
                         text="My Marker"
