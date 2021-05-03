@@ -10,8 +10,10 @@ import './SearchResults.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
-import {} from '.';
+import {SearchResultsHeader} from './SearchResultsHeader';
+import {SearchResultsFilters} from './SearchResultsFilters';
+import {SearchResultsCallout} from './SearchResultsCallout';
+import {SearchResultsList} from './SearchResultsList';
 
 /**
  * @interface ISearchResults
@@ -39,3 +41,11 @@ export function SearchResults({children}: ISearchResults){
         </div>
     </>);
 }
+
+/**
+ * @namespace SearchResults
+ */
+SearchResults.Header = SearchResultsHeader;
+SearchResults.Filters = SearchResultsFilters;
+SearchResults.Callout = SearchResultsCallout;
+SearchResults.List = SearchResultsList;
