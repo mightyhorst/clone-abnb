@@ -17,7 +17,7 @@ import {
  */
 import {
   SearchResults,
-  SearchResult,
+  SearchItem,
 } from '../../components';
 
 /**
@@ -35,9 +35,9 @@ import {
  */
 const searchResultsList = (<>
   <SearchResults.List>
-    <SearchResult>
+    <SearchItem>
       cool
-    </SearchResult>
+    </SearchItem>
   </SearchResults.List>
 </>);
 
