@@ -1,7 +1,7 @@
 /**
- * @component SearchResult
+ * @component SearchItem
  */
-.SearchResult{
+.SearchItem{
     /**
      * @display
      */

@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Story, Meta } from '@storybook/react';
 
-import { SearchResult, ISearchResult } from './SearchResult';
+import { SearchItem, ISearchItem } from './SearchItem';
 
 /**
  * @exports Story
  */
 export default {
-    title: 'SearchPage/SearchResult',
-    component: SearchResult,
+    title: 'SearchPage/SearchItem',
+    component: SearchItem,
     argTypes: {
 
     },
@@ -21,7 +21,7 @@ export default {
 /**
  * @constant Template
  */
-const Template: Story<ISearchResult> = (args: ISearchResult) => <SearchResult {...args} />;
+const Template: Story<ISearchItem> = (args: ISearchItem) => <SearchItem {...args} />;
 
 /**
  * @example Example story

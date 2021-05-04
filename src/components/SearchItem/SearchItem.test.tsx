@@ -10,7 +10,7 @@ import '@testing-library/jest-dom/extend-expect';
 /**
  * @requires Components
  */
-import {Example} from './SearchResult.stories';
+import {Example} from './SearchItem.stories';
 
 /**
  * @global
@@ -28,7 +28,7 @@ afterAll(() => {
 /**
  * @tests
  */
-describe('SearchResult', async () => {
+describe('SearchItem', async () => {
 
     it('should render', async ()=>{
 

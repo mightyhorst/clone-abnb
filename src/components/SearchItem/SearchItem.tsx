@@ -4,8 +4,8 @@ import clsx from 'clsx';
 /**
  * @requires Styles
  */
-import './SearchResult.css';
-import './SearchResult.responsive.css';
+import './SearchItem.css';
+import './SearchItem.responsive.css';
 
 /**
  * @requires Components
@@ -34,41 +34,47 @@ const images = [
 ];
 
 /**
- * @interface ISearchResult
- * @description SearchResult props types
+ * @interface ISearchItem
+ * @description SearchItem props types
  */
-export interface ISearchResult{
+export interface ISearchItem{
     
 }
 
 /**
- * @function SearchResult
+ * @function SearchItem
  * @param props - props for children 
- * @returns {SearchResult}
+ * @returns {SearchItem}
  */
-export function SearchResult(props: ISearchResult){
+export function SearchItem(props: ISearchItem){
     return (<>
-        <div className='SearchResult'>
-            <ImageCarousel images={images} />
+        <div className='SearchItem'>
+            <ImageCarousel title='Superhost' images={images} />
             <div className='SearchItemDetails'>
                 <div className='SearchItemHeader'>
                     <h4>
-                    “Entire apartment in Adelaide”
+                        Entire apartment in Adelaide
                     </h4>
                     <h3>
-                    “Great value. Walk. in the city”
+                        Great value. Walk. in the city
                     </h3>
                     <Button variant='love'>
                         love icon
                     </Button>
                 </div>
                 <div className='SearchItemStats'>
-                    span 
+                    <span>
                     “2 guests”
+                    </span>
+                    <span>
                     span 
+                    </span>
+                    <span>
                     “1 bed”
-                    span 
+                    </span>
+                    <span>
                     “1 bath”
+                    </span>
                 </div>
                 <div className='SearchItemDates'>
                     “14 Dec - 25 Dec”
