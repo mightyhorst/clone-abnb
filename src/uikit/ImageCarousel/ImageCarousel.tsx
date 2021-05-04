@@ -10,6 +10,12 @@ import './ImageCarousel.responsive.css';
 /**
  * @requires Components
  */
+import {ImageCarouselPagination} from './ImageCarouselPagination';
+
+/**
+ * @interface IImage
+ * @description Image model
+ */
 export interface IImage{
     id: string;
     imgSrc: string;
@@ -53,6 +59,7 @@ export function ImageCarousel({title, images}: IImageCarousel){
                     })
                 }
             </ul>
+            <ImageCarouselPagination />
         </article>
     </>);
 }

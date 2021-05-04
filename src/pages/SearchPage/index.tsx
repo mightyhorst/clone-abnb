@@ -62,6 +62,30 @@ const searchResultsList = (<>
       noOfBeds={2}
       noOfBaths={1}
     />
+    <SearchItem 
+      images={images} 
+      subTitle='Entire apartment in Adelaide'
+      title='Great value. Walk. in the city'
+      noOfGuests={2}
+      noOfBeds={2}
+      noOfBaths={1}
+    />
+    <SearchItem 
+      images={images} 
+      subTitle='Entire apartment in Adelaide'
+      title='Great value. Walk. in the city'
+      noOfGuests={2}
+      noOfBeds={2}
+      noOfBaths={1}
+    />
+    <SearchItem 
+      images={images} 
+      subTitle='Entire apartment in Adelaide'
+      title='Great value. Walk. in the city'
+      noOfGuests={2}
+      noOfBeds={2}
+      noOfBaths={1}
+    />
   </SearchResults.List>
 </>);
 
