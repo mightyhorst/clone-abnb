@@ -1,43 +1,27 @@
 /**
  * @component ImageCarouselPagination
  */
-.ImageCarouselPagination{
-    
-}
-
-/**
- * @el button left and right
- */
-.carousel-pagination__left{
-
-} 
-.carousel-pagination__right{
-
-} 
-.carousel-pagination__left.isInactive,
-.carousel-pagination__right.isInactive
-{
-
-} 
-
-/**
- * @el ul
- */
-.carousel-pagination__ul{
+.ImageCarouselPagination,
+.image-carousel-pagination{
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.carousel-pagination__ul > li{
+
+/**
+ * @el nav buttons
+ */
+ .image-carousel-pagination > button{
     display: flex;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    background: green;
 }
-.carousel-pagination__ul > li.isActive{
-    
+.image-carousel-pagination > button.isActive{
+    background: red;
 }
