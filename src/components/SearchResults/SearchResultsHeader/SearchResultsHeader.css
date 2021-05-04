@@ -1,6 +1,11 @@
 /**
  * @component SearchResultsHeader 
  */
-.SearchResultsHeader{
-
+.SearchResultsHeader {
+  padding-top: 32px;
+}
+@media (min-width: 744px) {
+  .SearchResultsHeader {
+    padding-top: 50px;
+  }
 }

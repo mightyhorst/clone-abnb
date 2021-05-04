@@ -1,0 +1,85 @@
+.search-btn-div {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.search-filter-buttons button {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid rgb(176, 176, 176);
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  margin: 0px;
+  border-radius: 30px;
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  position: relative;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.search-callout-content {
+  padding-right: 24px;
+  max-width: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.search-callout-content img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: -10px;
+}
+.trophy-icon-div {
+  width: 8%;
+  float: left;
+}
+.search-callout-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+  font-weight: 400;
+  color: #222222;
+  margin-right: 8px;
+}
+.search-callout-content strong {
+  font-weight: 800;
+  margin-right: 8px;
+  display: inline;
+}
+.search-callout-content span {
+  margin-right: 4px;
+  display: inline;
+}
+@media (min-width: 1128px) {
+  .search-callout-content {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 24px;
+  }
+}
+@media (min-width: 744px) {
+  .search-callout-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 0px;
+    margin-left: 46px;
+    margin-bottom: 20px;
+  }
+}

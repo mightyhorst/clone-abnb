@@ -1,46 +1,60 @@
 /**
  * @component SearchResults
  */
-.SearchResults{
-    /**
+.SearchResults {
+  /**
      * @display
      */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    /**
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 20px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 20px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
-
-.SearchResults h4{
-    font-size: 12px; 
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
 }
 
-.SearchResults h1{
-    font-size: 18px;
+.SearchResults h4 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+  padding-bottom: 8px;
+}
+
+.SearchResults h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 26px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 800;
+}
+@media (min-width: 744px) {
+  .SearchResults h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
