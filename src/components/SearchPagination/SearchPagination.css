@@ -1,0 +1,43 @@
+/**
+ * @component SearchPagination
+ */
+ .SearchPagination{
+    
+}
+
+/**
+ * @el button left and right
+ */
+.pagination__left{
+
+} 
+.pagination__right{
+
+} 
+.pagination__left.isInactive,
+.pagination__right.isInactive
+{
+
+} 
+
+/**
+ * @el ul
+ */
+.pagination__ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pagination__ul > li{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.pagination__ul > li.isActive{
+    
+}

@@ -18,6 +18,7 @@ import {
 import {
   SearchResults,
   SearchItem,
+  SearchPagination,
 } from '../../components';
 
 /**
@@ -151,6 +152,10 @@ export function SearchPage({map}: ISearchPage) {
         <Column.Container>
           <Column.Half>
             {searchResults}
+            <SearchPagination 
+              pages={15}
+              activePage={1}
+            />
           </Column.Half>
           <Column.Half>
             <Map 

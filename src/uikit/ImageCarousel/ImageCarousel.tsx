@@ -59,7 +59,10 @@ export function ImageCarousel({title, images}: IImageCarousel){
                     })
                 }
             </ul>
-            <ImageCarouselPagination />
+            <ImageCarouselPagination 
+                pages={15}
+                activePage={0}
+            />
         </article>
     </>);
 }
