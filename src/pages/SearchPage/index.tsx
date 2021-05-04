@@ -24,20 +24,44 @@ import {
  * @requires UIKit
  */
 import { 
+  IImage,
   Column,
   Map,
   Button,
   Icon,
 } from "../../uikit";
 
+const images: IImage[] = [
+  {
+      id: '1',
+      imgSrc: '/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg',
+      isActive: true,
+  },
+  {
+      id: '2',
+      imgSrc: '/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg',
+      isActive: false,
+  },
+  {
+      id: '3',
+      imgSrc: '/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg',
+      isActive: false,
+  },
+];
+
 /**
  * @constant {SearchResultsList} searchResultsList - search result list 
  */
 const searchResultsList = (<>
   <SearchResults.List>
-    <SearchItem>
-      cool
-    </SearchItem>
+    <SearchItem 
+      images={images} 
+      subTitle='Entire apartment in Adelaide'
+      title='Great value. Walk. in the city'
+      noOfGuests={2}
+      noOfBeds={2}
+      noOfBaths={1}
+    />
   </SearchResults.List>
 </>);
 

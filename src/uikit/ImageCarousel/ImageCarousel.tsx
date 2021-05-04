@@ -10,8 +10,7 @@ import './ImageCarousel.responsive.css';
 /**
  * @requires Components
  */
-
-interface IImg{
+export interface IImage{
     id: string;
     imgSrc: string;
     isActive?: boolean;
@@ -23,7 +22,7 @@ interface IImg{
  */
 export interface IImageCarousel{
     title: string;
-    images: IImg[];
+    images: IImage[];
 }
 
 /**
