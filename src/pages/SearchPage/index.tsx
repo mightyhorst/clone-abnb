@@ -44,7 +44,18 @@ const images: IImage[] = [
 const searchResultsList = (
   <>
     <SearchResults.List>
-      <SearchItem
+      <div className="search-item-div">
+        <SearchItem
+          images={images}
+          subTitle="Entire apartment in Adelaide"
+          title="Great value. Walk. in the city"
+          noOfGuests={2}
+          noOfBeds={2}
+          noOfBaths={1}
+        />
+      </div>
+
+      {/* <SearchItem
         images={images}
         subTitle="Entire apartment in Adelaide"
         title="Great value. Walk. in the city"
@@ -67,15 +78,7 @@ const searchResultsList = (
         noOfGuests={2}
         noOfBeds={2}
         noOfBaths={1}
-      />
-      <SearchItem
-        images={images}
-        subTitle="Entire apartment in Adelaide"
-        title="Great value. Walk. in the city"
-        noOfGuests={2}
-        noOfBeds={2}
-        noOfBaths={1}
-      />
+      /> */}
     </SearchResults.List>
   </>
 );

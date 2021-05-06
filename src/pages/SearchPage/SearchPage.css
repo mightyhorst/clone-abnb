@@ -67,6 +67,17 @@
   margin-right: 4px;
   display: inline;
 }
+.search-item-div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
 @media (min-width: 1128px) {
   .search-callout-content {
     margin: 0 auto;

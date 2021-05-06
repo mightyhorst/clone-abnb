@@ -2,26 +2,70 @@
  * @component ImageCarouselPagination
  */
 .ImageCarouselPagination,
-.image-carousel-pagination{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.image-carousel-pagination {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  transition: -ms-transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s,
+    -webkit-transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s,
+    transform 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
 }
 
 /**
  * @el nav buttons
  */
- .image-carousel-pagination > button{
-    display: flex;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    background: green;
+.image-carousel-pagination > span {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 6px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  min-width: 6px;
+  opacity: 0.6;
+  transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+  width: 6px;
 }
-.image-carousel-pagination > button.isActive{
-    background: red;
+.image-carousel-pagination > span.isActive {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 6px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  min-width: 6px;
+  transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+  width: 6px;
+  opacity: 1;
+}
+.pagination-section {
+  -webkit-box-pack: center;
+  -webkit-box-align: end;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  white-space: nowrap;
+}
+.pagination-dots {
+  -webkit-box-pack: center;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 12px;
+  max-width: 55px;
 }

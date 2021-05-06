@@ -18,7 +18,7 @@
 }
 .Column.Half,
 .Column.half {
-  width: 60%;
+  width: 50%;
   flex-basis: 50%;
 }
 .Column.Third,

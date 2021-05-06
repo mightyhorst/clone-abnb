@@ -1,24 +1,30 @@
-import React, {useState} from 'react';
+import React, { useState } from "react";
 
-import './ImageCarouselPagination.css';
+import "./ImageCarouselPagination.css";
 
-export interface IImageCarouselPagination{
-    pages: number;
-    activePage?: number;
+export interface IImageCarouselPagination {
+  pages: number;
+  activePage?: number;
 }
-export function ImageCarouselPagination(props: IImageCarouselPagination){
-    const [activePage, setActivePage] = useState(props.activePage || 0);
-    const onClickHandler = (index: number) => {
-        setActivePage(index);
-    };
-    return (<>
-        <nav className='ImageCarouselPagination image-carousel-pagination'>
+export function ImageCarouselPagination(props: IImageCarouselPagination) {
+  const [activePage, setActivePage] = useState(props.activePage || 0);
+  const onClickHandler = (index: number) => {
+    setActivePage(index);
+  };
+  return (
+    <>
+      <div className="pagination-section">
+        <div className="pagination-dots">
+          <nav className="ImageCarouselPagination image-carousel-pagination">
             {Array.from(Array(props.pages)).map((page, index) => (
-                <button 
-                    className={activePage === index ?  'isActive' : ''}
-                    onClick={(e)=>onClickHandler(index)}
-                />
+              <span
+                className={activePage === index ? "isActive" : ""}
+                onClick={(e) => onClickHandler(index)}
+              ></span>
             ))}
-        </nav>
-    </>);
+          </nav>
+        </div>
+      </div>
+    </>
+  );
 }
