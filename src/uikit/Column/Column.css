@@ -20,6 +20,8 @@
 .Column.half {
   width: 50%;
   flex-basis: 50%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .Column.Third,
 .Column.third {

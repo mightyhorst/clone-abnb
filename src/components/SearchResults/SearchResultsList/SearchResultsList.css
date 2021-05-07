@@ -3,10 +3,3 @@
  */
 .SearchResultsList {
 }
-@media (min-width: 744px) {
-  .SearchResultsList {
-    padding: 0px !important;
-    margin-left: -8px !important;
-    margin-right: -8px !important;
-  }
-}

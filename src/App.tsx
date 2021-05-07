@@ -1,10 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import {
-  TripsPage,
-  SearchPage,
-} from './pages';
+import { TripsPage, SearchPage } from "./pages";
 
 function App() {
   return (

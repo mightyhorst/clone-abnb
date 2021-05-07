@@ -34,6 +34,8 @@
   font-size: inherit;
   font-family: inherit;
   font-weight: inherit;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 /**
@@ -58,18 +60,19 @@
   -webkit-flex-grow: 1;
   flex-grow: 1;
   height: 200px;
-  margin-left: 16px;
+  margin-left: 265px;
+  width: 370px;
 }
 
 /**
  * @component SearchItem.Header
  */
-.SearchItemHeader {
+/* .SearchItemHeader {
   -webkit-flex: 1;
   -ms-flex: 1 1 0%;
   flex: 1;
   margin-right: 16px;
-}
+} */
 .SearchItemHeader-subtitle {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -141,7 +144,9 @@ button.Button.love {
   color: rgb(34, 34, 34);
   cursor: pointer;
   touch-action: manipulation;
-  position: relative;
+  position: absolute;
+  right: 0;
+  top: 0;
   background: transparent;
   transition: -ms-transform 0.25s ease 0s, -webkit-transform 0.25s ease 0s,
     transform 0.25s ease 0s;
@@ -178,22 +183,74 @@ button.Button.love svg {
  * @component SearchItem.Stats
  */
 .SearchItemStats {
+  color: #717171;
+  font-weight: 400;
+  min-height: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  max-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-top: 10px;
 }
-
+.SearchItemDates {
+  border: 1px solid #e7e7e7;
+  width: 130px;
+  padding: 0 14px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
 /**
  * @component SearchItem.Footer
  */
 .SearchItemFooter {
+  position: relative;
+  width: 100%;
+  margin-top: 35px;
 }
 
 /**
  * @component SearchItem.Ratings
  */
-.SearchItemRatings {
+.SearchItemRatings,
+.SearchItemPrice {
+  position: relative;
+  width: 50%;
+  float: left;
 }
-
+.SearchItemRatings {
+  margin-top: 22px;
+}
+.SearchItemRatings svg {
+  height: 14px;
+  width: 14px;
+  fill: currentcolor;
+  color: rgb(255, 56, 92);
+  margin-right: 4px;
+}
+.SearchItemRatings strong {
+  color: #222222;
+  font-weight: 600;
+}
+.SearchItemPrice strong {
+  font-weight: 800;
+  padding-right: 4px;
+}
 /**
  * @component SearchItem.Price
  */
 .SearchItemPrice {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+}
+.SearchItemPrice span {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #717171;
+  font-weight: 400;
 }

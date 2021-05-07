@@ -55,30 +55,38 @@ const searchResultsList = (
         />
       </div>
 
-      {/* <SearchItem
-        images={images}
-        subTitle="Entire apartment in Adelaide"
-        title="Great value. Walk. in the city"
-        noOfGuests={2}
-        noOfBeds={2}
-        noOfBaths={1}
-      />
-      <SearchItem
-        images={images}
-        subTitle="Entire apartment in Adelaide"
-        title="Great value. Walk. in the city"
-        noOfGuests={2}
-        noOfBeds={2}
-        noOfBaths={1}
-      />
-      <SearchItem
-        images={images}
-        subTitle="Entire apartment in Adelaide"
-        title="Great value. Walk. in the city"
-        noOfGuests={2}
-        noOfBeds={2}
-        noOfBaths={1}
-      /> */}
+      <div className="search-item-div">
+        <SearchItem
+          images={images}
+          subTitle="Entire apartment in Adelaide"
+          title="Great value. Walk. in the city"
+          noOfGuests={2}
+          noOfBeds={2}
+          noOfBaths={1}
+        />
+      </div>
+
+      <div className="search-item-div">
+        <SearchItem
+          images={images}
+          subTitle="Entire apartment in Adelaide"
+          title="Great value. Walk. in the city"
+          noOfGuests={2}
+          noOfBeds={2}
+          noOfBaths={1}
+        />
+      </div>
+
+      <div className="search-item-div">
+        <SearchItem
+          images={images}
+          subTitle="Entire apartment in Adelaide"
+          title="Great value. Walk. in the city"
+          noOfGuests={2}
+          noOfBeds={2}
+          noOfBaths={1}
+        />
+      </div>
     </SearchResults.List>
   </>
 );
