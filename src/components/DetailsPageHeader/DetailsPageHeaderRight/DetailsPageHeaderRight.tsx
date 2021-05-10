@@ -2,7 +2,7 @@ import './DetailsPageHeaderRight.css';
 
 import {Icon} from '../../../uikit';
 
-export function PageHeaderRight(){
+export function DetailsPageHeaderRight(){
     return (<div className='PageHeaderRight'>
         <Icon.Share />
         <a href="#">
