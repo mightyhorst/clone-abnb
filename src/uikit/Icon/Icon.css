@@ -1,7 +1,7 @@
 /**
  * @component Icon
  */
-.Icon{
+ .Icon{
 
 }
 /**
@@ -9,5 +9,31 @@
  */
 .IconTrophy,
 .icon-trophy{
+    
+}
+/**
+ * @variant IconLove
+ */
+.IconLove,
+.icon-love{
+    
+}
+.IconLove.isLoved,
+.icon-love.isLoved{
+    
+}
+/**
+ * @variant IconStar
+ */
+ .IconStar,
+ .icon-star{
+     
+ }
+
+ /**
+ * @variant IconMedal
+ */
+.IconMedal,
+.icon-medal{
     
 }
