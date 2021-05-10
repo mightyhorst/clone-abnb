@@ -13,9 +13,13 @@ import './DetailsPage.responsive.css';
 import {
     DetailsPageHeader,
     DetailsPagePhotos,
+    HouseHeader,
+    HouseStats,
+    HouseDetails,
+    HouseAmmenities,
 } from '../../components';
 import {
-    
+    Column,
 } from '../../uikit';
 
 /**
@@ -23,25 +27,29 @@ import {
  * @description DetailsPage props types
  */
 export interface IDetailsPage{
-    children?: React.ReactNode;
+    // children?: React.ReactNode;
 }
 
 /**
  * @function DetailsPage
- * @param props - props for children 
+ * @param {IDetailsPage} props - props for children 
  * @returns {DetailsPage}
  */
-export function DetailsPage({children}: IDetailsPage){
-    /**
-     * @constant className - build the css classes to add to the DetailsPage
-     */
-    const className = clsx(
-        'DetailsPage',
-    );
+export function DetailsPage(props: IDetailsPage){
     return (<>
-        <section className={className}>
+        <section className={'DetailsPage'}>
             <DetailsPageHeader />
             <DetailsPagePhotos />
+            <Column.Container>
+                <Column.TwoThirds>
+                    <HouseHeader />
+                    <HouseStats />
+                    <HouseDetails />
+                    <HouseAmmenities />
+                </Column.TwoThirds>
+                <Column.Third>
+                </Column.Third>
+            </Column.Container>
         </section>
     </>);
 }
