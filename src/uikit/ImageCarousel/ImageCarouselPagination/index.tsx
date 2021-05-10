@@ -18,6 +18,7 @@ export function ImageCarouselPagination(props: IImageCarouselPagination) {
           <nav className="ImageCarouselPagination image-carousel-pagination">
             {Array.from(Array(props.pages)).map((page, index) => (
               <span
+                key={index}
                 className={activePage === index ? "isActive" : ""}
                 onClick={(e) => onClickHandler(index)}
               ></span>
