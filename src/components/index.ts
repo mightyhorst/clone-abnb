@@ -3,6 +3,5 @@ export * from './Footer';
 export * from './SearchResults';
 export * from './SearchItem';
 export * from './SearchPagination';
-export * from './PageHeader';
+export * from './DetailsPageHeader';
 export * from './DetailsPagePhotos';
-
