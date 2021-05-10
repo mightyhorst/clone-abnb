@@ -10,15 +10,16 @@ import './DetailsPagePhotos.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
-import {} from '.';
+import {
+    Photo,
+} from '../../uikit';
 
 /**
  * @interface IDetailsPagePhotos
  * @description DetailsPagePhotos props types
  */
 export interface IDetailsPagePhotos{
-    children?: React.ReactNode;
+    // children?: React.ReactNode;
 }
 
 /**
@@ -26,16 +27,31 @@ export interface IDetailsPagePhotos{
  * @param props - props for children 
  * @returns {DetailsPagePhotos}
  */
-export function DetailsPagePhotos({children}: IDetailsPagePhotos){
-    /**
-     * @constant className - build the css classes to add to the DetailsPagePhotos
-     */
-    const className = clsx(
-        'DetailsPagePhotos',
-    );
+export function DetailsPagePhotos(props: IDetailsPagePhotos){
     return (<>
-        <div className={className}>
-            {children}
-        </div>
+        <Photo.Container>
+            <Photo.Col>
+            </Photo.Col>
+                <Photo 
+                    variant='featured' 
+                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                />
+            <Photo.Col>
+                <Photo 
+                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                />
+                <Photo 
+                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                />
+            </Photo.Col>
+            <Photo.Col>
+                <Photo 
+                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                />
+                <Photo 
+                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                />
+            </Photo.Col>
+        </Photo.Container>
     </>);
 }

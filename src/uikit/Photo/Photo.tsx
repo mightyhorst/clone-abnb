@@ -19,6 +19,8 @@ import {PhotoCol} from './PhotoCol';
  */
 export interface IPhoto{
     children?: React.ReactNode;
+    variant?: 'featured';
+    src: string;
 }
 
 /**
@@ -26,16 +28,17 @@ export interface IPhoto{
  * @param props - props for children 
  * @returns {Photo}
  */
-export function Photo({children}: IPhoto){
+export function Photo({children, variant, src}: IPhoto){
     /**
      * @constant className - build the css classes to add to the Photo
      */
     const className = clsx(
         'Photo',
+        variant,
     );
     return (<>
         <div className={className}>
-            {children}
+            <img src={src} alt={'snapshots'} />
         </div>
     </>);
 }
