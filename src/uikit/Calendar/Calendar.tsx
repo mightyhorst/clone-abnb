@@ -10,7 +10,6 @@ import './Calendar.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
 
 /**
  * @interface ICalendar
@@ -40,7 +39,15 @@ export function Calendar(props: ICalendar) {
                 <table className="calendar__table">
                     <thead>
                         <tr>
-                            <th colSpan={7}>April 2021</th>
+                            <th colSpan={7}>
+                                <button className="calendar__btn-left">
+                                    <i className="fa fa-chevron-left"></i>
+                                </button>
+                                <span>April 2021</span>
+                                <button className="calendar__btn-right">
+                                    <i className="fa fa-chevron-right"></i>
+                                </button>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>

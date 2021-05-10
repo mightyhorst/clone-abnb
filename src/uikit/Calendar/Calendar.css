@@ -1,7 +1,7 @@
 /**
  * @component Calendar
  */
-.Calendar{
+ .Calendar{
     /**
      * @display
      */
@@ -45,8 +45,13 @@
 .calendar__table > tbody{
 
 }
-.calendar__table th{
-
+.calendar__table thead th{
+    /**
+     * @display
+     */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
 .calendar__table tr{
 
@@ -54,3 +59,14 @@
 .calendar__table td{
 
 }
+
+/**
+ * @el headers
+ */
+.calendar__btn-left{
+
+}
+.calendar__btn-right{
+
+}
+
