@@ -5,8 +5,8 @@ interface PhotoColProps{
 }
 export function PhotoCol({children}: PhotoColProps){
     return (<>
-        <section>
+        <aside className='PhotoCol'>
             {children}
-        </section>
+        </aside>
     </>);
 }

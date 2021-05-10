@@ -5,7 +5,7 @@ interface PhotoContainerProps{
 }
 export function PhotoContainer({children}: PhotoContainerProps){
     return (<>
-        <section>
+        <section className='PhotoContainer'>
             {children}
         </section>
     </>);
