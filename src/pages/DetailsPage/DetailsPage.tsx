@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 
 /**
  * @requires Styles
@@ -20,6 +19,7 @@ import {
 } from '../../components';
 import {
     Column,
+    BookingDates,
 } from '../../uikit';
 
 /**
@@ -46,6 +46,7 @@ export function DetailsPage(props: IDetailsPage){
                     <HouseStats />
                     <HouseDetails />
                     <HouseAmmenities />
+                    <BookingDates />
                 </Column.TwoThirds>
                 <Column.Third>
                 </Column.Third>

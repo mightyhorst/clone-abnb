@@ -7,3 +7,4 @@ export * from './Map';
 export * from './Icon';
 export * from './ImageCarousel';
 export * from './Photo';
+export * from './BookingDates';
