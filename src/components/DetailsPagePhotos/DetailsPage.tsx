@@ -12,7 +12,6 @@ import './DetailsPage.responsive.css';
  */
 import {
     PageHeader,
-    DetailsPagePhotos,
 } from '../../components';
 import {
     Photo,
@@ -41,7 +40,6 @@ export function DetailsPage({children}: IDetailsPage){
     return (<>
         <section className={className}>
             <PageHeader />
-            <DetailsPagePhotos />
         </section>
     </>);
 }
