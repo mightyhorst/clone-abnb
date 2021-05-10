@@ -31,11 +31,11 @@ export function DetailsPagePhotos(props: IDetailsPagePhotos){
     return (<>
         <Photo.Container>
             <Photo.Col>
-            </Photo.Col>
                 <Photo 
                     variant='featured' 
                     src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
-                />
+                    />
+            </Photo.Col>
             <Photo.Col>
                 <Photo 
                     src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
