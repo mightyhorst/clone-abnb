@@ -1,6 +1,6 @@
-import './PageHeaderRight.css';
+import './DetailsPageHeaderRight.css';
 
-import {Icon} from '../../uikit';
+import {Icon} from '../../../uikit';
 
 export function PageHeaderRight(){
     return (<div className='PageHeaderRight'>
