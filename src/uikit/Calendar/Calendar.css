@@ -70,3 +70,9 @@
 
 }
 
+/**
+ * @el calendar__days
+ */
+.calendar__days{
+    font-weight: 600;
+}

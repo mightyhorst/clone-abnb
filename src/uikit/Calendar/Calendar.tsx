@@ -51,7 +51,7 @@ export function Calendar(props: ICalendar) {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr className='calendar__days'>
                             <td>Su</td>
                             <td>Mo</td>
                             <td>Tu</td>
