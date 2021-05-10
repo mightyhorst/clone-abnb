@@ -35,7 +35,8 @@ export function PageHeader({children}: IPageHeader){
     );
     return (<>
         <div className={className}>
-            {children}
+            <PageHeaderLeft />
+            <PageHeaderRight />
         </div>
     </>);
 }
