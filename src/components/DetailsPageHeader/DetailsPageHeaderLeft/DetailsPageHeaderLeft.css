@@ -1,11 +1,11 @@
 /**
- * @component PageHeaderLeft
+ * @component DetailsPageHeaderLeft
  */
-.PageHeaderLeft{
+.DetailsPageHeaderLeft{
 
 }
 
-.PageHeaderLeft > span{
+.DetailsPageHeaderLeft > span{
     
 }
 

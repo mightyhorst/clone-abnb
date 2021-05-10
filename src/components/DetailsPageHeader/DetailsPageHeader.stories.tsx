@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Story, Meta } from '@storybook/react';
 
-import { PageHeader, IPageHeader } from './PageHeader';
+import { DetailsPageHeader, IDetailsPageHeader } from './DetailsPageHeader';
 
 /**
  * @exports Story
  */
 export default {
-    title: 'DetailsPage/PageHeader',
-    component: PageHeader,
+    title: 'DetailsPage/DetailsPageHeader',
+    component: DetailsPageHeader,
     argTypes: {
 
     },
@@ -21,7 +21,7 @@ export default {
 /**
  * @constant Template
  */
-const Template: Story<IPageHeader> = (args: IPageHeader) => <PageHeader {...args} />;
+const Template: Story<IDetailsPageHeader> = (args: IDetailsPageHeader) => <DetailsPageHeader {...args} />;
 
 /**
  * @example Example story

@@ -10,7 +10,7 @@ import '@testing-library/jest-dom/extend-expect';
 /**
  * @requires Components
  */
-import {Example} from './PageHeader.stories';
+import {Example} from './DetailsPageHeader.stories';
 
 /**
  * @global
@@ -28,7 +28,7 @@ afterAll(() => {
 /**
  * @tests
  */
-describe('PageHeader', async () => {
+describe('DetailsPageHeader', async () => {
 
     it('should render', async ()=>{
 

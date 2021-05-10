@@ -1,9 +1,9 @@
-import './PageHeaderLeft.css';
+import './DetailsPageHeaderLeft.css';
 
-import {Icon} from '../../uikit';
+import {Icon} from '../../../uikit';
 
-export function PageHeaderLeft(){
-    return (<div className='PageHeaderLeft'>
+export function DetailsPageHeaderLeft(){
+    return (<div className='DetailsPageHeaderLeft'>
         <span className='page-header-left__star'>
             <Icon.Star />
             <strong>
