@@ -20,6 +20,7 @@ import {
 import {
     Column,
     BookingDates,
+    BookingForm,
 } from '../../uikit';
 
 /**
@@ -49,6 +50,7 @@ export function DetailsPage(props: IDetailsPage){
                     <BookingDates />
                 </Column.TwoThirds>
                 <Column.Third>
+                    <BookingForm />
                 </Column.Third>
             </Column.Container>
         </section>
