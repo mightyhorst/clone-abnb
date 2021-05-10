@@ -11,11 +11,11 @@ import './DetailsPage.responsive.css';
  * @requires Components
  */
 import {
-    PageHeader,
+    DetailsPageHeader,
     DetailsPagePhotos,
 } from '../../components';
 import {
-    Photo,
+    
 } from '../../uikit';
 
 /**
@@ -40,7 +40,7 @@ export function DetailsPage({children}: IDetailsPage){
     );
     return (<>
         <section className={className}>
-            <PageHeader />
+            <DetailsPageHeader />
             <DetailsPagePhotos />
         </section>
     </>);
