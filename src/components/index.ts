@@ -10,4 +10,5 @@ export * from './HouseStats';
 export * from './HouseDetails';
 export * from './HouseBeds';
 export * from './HouseAmmenities';
+export * from './HouseReviews';
 export * from './HostDetails';

@@ -17,6 +17,7 @@ import {
     HouseDetails,
     HouseBeds,
     HouseAmmenities,
+    HouseReviews,
     HostDetails,
 } from '../../components';
 import {
@@ -56,6 +57,7 @@ export function DetailsPage(props: IDetailsPage){
                     <BookingForm />
                 </Column.Third>
             </Column.Container>
+            <HouseReviews />
             <HostDetails />
         </section>
     </>);
