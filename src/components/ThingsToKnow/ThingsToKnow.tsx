@@ -36,10 +36,53 @@ export function ThingsToKnow({children}: IThingsToKnow){
                     <h3>
                         House rules
                     </h3>
+                    <ul>
+                        <li>
+                            <i className="fa fa-clock"></i>
+                            <span>
+                                Check in flexible
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <span>
+                            Show All
+                        </span>
+                        <i className="fa fa-chevron-right"></i>
+                    </a>
                 </ThingsToKnowCol>
                 <ThingsToKnowCol>
+                    <h3>
+                        Health &amp; Safety
+                    </h3>
+                    <ul>
+                        <li>
+                            <i className="fa fa-stars"></i>
+                            <span>
+                                Commited to AirBnB's enhanced
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <span>
+                            Show All
+                        </span>
+                        <i className="fa fa-chevron-right"></i>
+                    </a>
                 </ThingsToKnowCol>
                 <ThingsToKnowCol>
+                    <h3>
+                        Cancellation Policy
+                    </h3>
+                    <p>
+                        Add your trip dates
+                    </p>
+                    <a href="#">
+                        <span>
+                            Show All
+                        </span>
+                        <i className="fa fa-chevron-right"></i>
+                    </a>
                 </ThingsToKnowCol>
             </ThingsToKnowRow>
         </div>
