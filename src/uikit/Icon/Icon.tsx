@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 
 interface IconProps{
-    variant: 'trophy' | 'share' | 'love' | 'star' | 'medal';
+    variant: 'trophy' | 'share' | 'love' | 'star' | 'medal' | 'verified';
     addClass?: string;
 }
 export function Icon({variant, addClass}: IconProps){
@@ -43,4 +43,9 @@ export function IconMedal(){
     return <Icon variant='medal' />;
 }
 Icon.Medal = IconMedal;
+
+export function IconVerified(){
+    return <Icon variant='verified' />;
+}
+Icon.Verified = IconVerified;
 

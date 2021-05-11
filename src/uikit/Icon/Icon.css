@@ -30,10 +30,18 @@
      
  }
 
- /**
+/**
  * @variant IconMedal
  */
 .IconMedal,
 .icon-medal{
+    
+}
+
+/**
+ * @variant IconVerified
+ */
+.IconVerified,
+.icon-verified{
     
 }

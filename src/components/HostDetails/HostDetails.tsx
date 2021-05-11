@@ -10,7 +10,7 @@ import './HostDetails.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {Icon} from '../../uikit';
 // import {} from '.';
 
 /**
@@ -18,7 +18,7 @@ import {} from '..';
  * @description HostDetails props types
  */
 export interface IHostDetails{
-    children?: React.ReactNode;
+    // children?: React.ReactNode;
 }
 
 /**
@@ -26,16 +26,42 @@ export interface IHostDetails{
  * @param props - props for children 
  * @returns {HostDetails}
  */
-export function HostDetails({children}: IHostDetails){
-    /**
-     * @constant className - build the css classes to add to the HostDetails
-     */
-    const className = clsx(
-        'HostDetails',
-    );
+export function HostDetails(props: IHostDetails){
     return (<>
-        <div className={className}>
-            {children}
-        </div>
+        <section className='HostDetails'>
+            <header>
+                <div className="host-details__profile">
+                    <img src="/img/profile.jpg" alt="profile" />
+                </div>
+                <div className="host-details__title">
+                    <h2>
+                        Hosted by Paul
+                    </h2>
+                    <sub>
+                        Joined in May 2016
+                    </sub>
+                </div>
+            </header>
+            <ul className="host-details__stats">
+                <li>
+                    <Icon.Star />
+                    <a href='#'>
+                        39 Reviews
+                    </a>
+                </li>
+                <li>
+                    <Icon.Verified />
+                    <a href='#'>
+                        Identity verifed
+                    </a>
+                </li>
+                <li>
+                    <Icon.Medal />
+                    <a href='#'>
+                        Superhost
+                    </a>
+                </li>
+            </ul>
+        </section>
     </>);
 }
