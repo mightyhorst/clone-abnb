@@ -45,3 +45,25 @@
 .more-places-to-stay__places > .PlaceToStay {
 
 }
+
+/**
+ * @component Nav
+ */
+.more-places-to-stay__nav{
+
+}
+.more-places-to-stay__nav span{
+
+}
+.more-places-to-stay__nav-btns{
+
+}
+.more-places-to-stay__nav-btn-left{
+
+}
+.more-places-to-stay__nav-btn-left i.fa.fa-chevron-left{
+
+}
+.more-places-to-stay__nav-btn-right i.fa.fa-chevron-right{
+
+}

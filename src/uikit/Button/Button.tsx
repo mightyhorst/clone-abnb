@@ -8,6 +8,7 @@ interface IButton{
     children: React.ReactNode;
     variant?: 'primary' | 'info' | 'small' | 'love';
     href?: string;
+    addClasses?: string;
     onClick?: () => void;
 }
 export function Button(props: IButton){
@@ -26,6 +27,7 @@ export function Button(props: IButton){
     const className = clsx(
         'Button',
         props.variant, 
+        props.addClasses,
     );
     return (<>
         { props.href ?

@@ -13,6 +13,7 @@ import './MorePlacesToStay.responsive.css';
 import {} from '..';
 import {
     PlaceToStay,
+    Button,
 } from '../../uikit';
 
 /**
@@ -37,6 +38,22 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
     );
     return (<>
         <div className={className}>
+            <h2>
+                More places to stay
+            </h2>
+            <nav className="more-places-to-stay__nav">
+                <span>
+                    1 / 3 
+                </span>
+                <div className="more-places-to-stay__nav-btns">
+                    <Button addClasses='more-places-to-stay__nav-btn-left'>
+                        <i className="fa fa-chevron-left"></i>
+                    </Button>
+                    <Button addClasses='more-places-to-stay__nav-btn-right'>
+                        <i className="fa fa-chevron-right"></i>
+                    </Button>
+                </div>
+            </nav>
             <div className='more-places-to-stay__places'>
                 <PlaceToStay 
                     imgSrc='/img/house1.png'
