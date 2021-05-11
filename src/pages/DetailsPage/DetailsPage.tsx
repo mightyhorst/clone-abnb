@@ -19,6 +19,7 @@ import {
     HouseAmmenities,
     HouseReviews,
     HostDetails,
+    HouseLocation, 
 } from '../../components';
 import {
     Column,
@@ -59,6 +60,7 @@ export function DetailsPage(props: IDetailsPage){
             </Column.Container>
             <HouseReviews />
             <HostDetails />
+            <HouseLocation />
         </section>
     </>);
 }
