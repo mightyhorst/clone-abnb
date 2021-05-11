@@ -20,6 +20,7 @@ import {
     HouseReviews,
     HostDetails,
     HouseLocation, 
+    MorePlacesToStay,
 } from '../../components';
 import {
     Column,
@@ -61,6 +62,7 @@ export function DetailsPage(props: IDetailsPage){
             <HouseReviews />
             <HostDetails />
             <HouseLocation />
+            <MorePlacesToStay />
         </section>
     </>);
 }

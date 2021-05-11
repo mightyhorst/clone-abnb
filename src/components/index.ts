@@ -13,3 +13,4 @@ export * from './HouseAmmenities';
 export * from './HouseReviews';
 export * from './HostDetails';
 export * from './HouseLocation';
+export * from './MorePlacesToStay';
