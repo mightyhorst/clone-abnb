@@ -20,6 +20,7 @@ import {
     HouseReviews,
     HostDetails,
     HouseLocation, 
+    ThingsToKnow,
     MorePlacesToStay,
 } from '../../components';
 import {
@@ -62,6 +63,7 @@ export function DetailsPage(props: IDetailsPage){
             <HouseReviews />
             <HostDetails />
             <HouseLocation />
+            <ThingsToKnow />
             <MorePlacesToStay />
         </section>
     </>);

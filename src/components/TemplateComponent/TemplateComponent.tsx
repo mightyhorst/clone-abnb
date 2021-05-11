@@ -11,7 +11,7 @@ import './TemplateComponent.responsive.css';
  * @requires Components
  */
 import {} from '..';
-import {} from '.';
+import {} from '../../uikit';
 
 /**
  * @interface ITemplateComponent

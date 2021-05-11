@@ -14,3 +14,4 @@ export * from './HouseReviews';
 export * from './HostDetails';
 export * from './HouseLocation';
 export * from './MorePlacesToStay';
+export * from './ThingsToKnow';
