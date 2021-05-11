@@ -42,7 +42,7 @@ export interface IDetailsPage{
  */
 export function DetailsPage(props: IDetailsPage){
     return (<>
-        <section className={'DetailsPage'}>
+        <section className='DetailsPage'>
             <DetailsPageHeader />
             <DetailsPagePhotos />
             <Column.Container>

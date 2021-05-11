@@ -11,3 +11,4 @@ export * from './Photo';
 export * from './BookingDates';
 export * from './Calendar';
 export * from './BookingForm';
+export * from './PlaceToStay';
