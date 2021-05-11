@@ -45,13 +45,15 @@
 .calendar__table > tbody{
 
 }
-.calendar__table thead th{
+.calendar__table thead th > div{
     /**
      * @display
      */
      display: flex;
      align-items: center;
      justify-content: space-between;
+     height: 100%;
+    width: 100%;
 }
 .calendar__table tr{
 

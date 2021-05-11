@@ -34,24 +34,26 @@ export function Calendar(props: ICalendar) {
      */
     const className = clsx('Calendar');
     return (
-        <>
+     <>
             <div className={className}>
                 <table className="calendar__table">
                     <thead>
                         <tr>
                             <th colSpan={7}>
-                                <button className="calendar__btn-left">
-                                    <i className="fa fa-chevron-left"></i>
-                                </button>
-                                <span>April 2021</span>
-                                <button className="calendar__btn-right">
-                                    <i className="fa fa-chevron-right"></i>
-                                </button>
+                                <div>
+                                    <button className="calendar__btn-left">
+                                        <i className="fa fa-chevron-left"></i>
+                                    </button>
+                                    <span>April 2021</span>
+                                    <button className="calendar__btn-right">
+                                        <i className="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr className='calendar__days'>
+                           <tr className='calendar__days'>
                             <td>Su</td>
                             <td>Mo</td>
                             <td>Tu</td>
