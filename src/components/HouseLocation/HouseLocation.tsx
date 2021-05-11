@@ -11,14 +11,17 @@ import './HouseLocation.responsive.css';
  * @requires Components
  */
 import {} from '..';
-import {} from '.';
+import {
+    LocationMap,
+    Button,
+} from '../../uikit';
 
 /**
  * @interface IHouseLocation
  * @description HouseLocation props types
  */
 export interface IHouseLocation{
-    children?: React.ReactNode;
+    // children?: React.ReactNode;
 }
 
 /**
@@ -26,7 +29,7 @@ export interface IHouseLocation{
  * @param props - props for children 
  * @returns {HouseLocation}
  */
-export function HouseLocation({children}: IHouseLocation){
+export function HouseLocation(props: IHouseLocation){
     /**
      * @constant className - build the css classes to add to the HouseLocation
      */
@@ -35,7 +38,19 @@ export function HouseLocation({children}: IHouseLocation){
     );
     return (<>
         <div className={className}>
-            {children}
+            <h2>
+                Location
+            </h2>
+            <LocationMap />
+            <h3>
+                Great Barrier Island, Auckland, New Zealand
+            </h3>
+            <p>
+                The locations are fantastic, howver the property is completely private with 10 acres.
+            </p>
+            <Button href='#'>
+                More about the location
+            </Button>  
         </div>
     </>);
 }

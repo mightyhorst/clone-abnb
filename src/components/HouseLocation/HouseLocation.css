@@ -35,3 +35,30 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+/**
+ * @el HouseLocation h2
+ */
+.HouseLocation h2{
+
+}
+/**
+ * @component HouseLocation LocationMap
+ */
+.HouseLocation .LocationMap{
+
+}
+/**
+ * @el HouseLocation h3, p
+ */
+.HouseLocation h3{
+
+}
+.HouseLocation p{
+
+}
+/**
+ * @component HouseLocation Button
+ */
+.HouseLocation .Button{
+
+}
