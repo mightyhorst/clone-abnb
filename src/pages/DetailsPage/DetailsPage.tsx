@@ -17,6 +17,7 @@ import {
     HouseDetails,
     HouseBeds,
     HouseAmmenities,
+    HostDetails,
 } from '../../components';
 import {
     Column,
@@ -55,6 +56,7 @@ export function DetailsPage(props: IDetailsPage){
                     <BookingForm />
                 </Column.Third>
             </Column.Container>
+            <HostDetails />
         </section>
     </>);
 }
