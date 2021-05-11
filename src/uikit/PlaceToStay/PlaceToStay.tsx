@@ -21,6 +21,9 @@ export interface IPlaceToStay{
     // children?: React.ReactNode;
     isLoved?: boolean;
     imgSrc: string; 
+    pricePerNight: number;
+    currency?: string;
+    noOfBeds: number;
 }
 
 /**
@@ -31,6 +34,9 @@ export interface IPlaceToStay{
 export function PlaceToStay({
     isLoved=false,
     imgSrc='/img/house1.png',
+    pricePerNight=241,
+    currency='AUD',
+    noOfBeds=2
 }: IPlaceToStay){
     return (<>
         <div className='PlaceToStay'>
@@ -46,7 +52,7 @@ export function PlaceToStay({
                     Hotel Room
                 </span>
                 <span className="place-to-stay__beds">
-                    2 beds
+                    {noOfBeds} beds
                 </span>
                 <span className="place-to-stay__address">
                     Unit two, Tipi and Bob's Waterfall
@@ -54,7 +60,7 @@ export function PlaceToStay({
             </div>
             <div className="place-to-stay__price">
                 <strong>
-                    $241 AUD 
+                    ${pricePerNight} {currency} 
                 </strong>
                 <span>
                     / night

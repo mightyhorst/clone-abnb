@@ -58,18 +58,30 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                 <PlaceToStay 
                     imgSrc='/img/house1.png'
                     isLoved
+                    pricePerNight={241}
+                    currency='AUD'
+                    noOfBeds={2}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house2.png'
                     isLoved={false}
+                    pricePerNight={241}
+                    currency='AUD'
+                    noOfBeds={2}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house3.png'
                     isLoved={false}
+                    pricePerNight={241}
+                    currency='AUD'
+                    noOfBeds={2}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house4.png'
                     isLoved={false}
+                    pricePerNight={241}
+                    currency='AUD'
+                    noOfBeds={2}
                 />
             </div>
         </div>
