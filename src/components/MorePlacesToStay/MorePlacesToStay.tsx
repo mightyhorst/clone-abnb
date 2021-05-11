@@ -38,11 +38,22 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
     return (<>
         <div className={className}>
             <div className='more-places-to-stay__places'>
-                <MorePlacesToStay />
-                <MorePlacesToStay />
-                <MorePlacesToStay />
-                <MorePlacesToStay />
-                <MorePlacesToStay />
+                <PlaceToStay 
+                    imgSrc='/img/house1.png'
+                    isLoved
+                />
+                <PlaceToStay 
+                    imgSrc='/img/house2.png'
+                    isLoved={false}
+                />
+                <PlaceToStay 
+                    imgSrc='/img/house3.png'
+                    isLoved={false}
+                />
+                <PlaceToStay 
+                    imgSrc='/img/house4.png'
+                    isLoved={false}
+                />
             </div>
         </div>
     </>);

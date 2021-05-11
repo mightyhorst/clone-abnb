@@ -2,6 +2,8 @@ import React from 'react';
 import './Button';
 import clsx from 'clsx';
 
+import {Icon} from '../Icon';
+
 interface IButton{
     children: React.ReactNode;
     variant?: 'primary' | 'info' | 'small' | 'love';
@@ -37,3 +39,16 @@ export function Button(props: IButton){
         }
     </>);
 }
+interface IButtonLove{
+    href?: string;
+    onClick?: () => void;
+    isLoved?: boolean;
+}
+function ButtonLove({isLoved = false, ...props}: IButtonLove){
+    return (
+        <Button variant='love' {...props}>
+            <Icon.Love isLoved={isLoved} />
+        </Button>
+    );
+}
+Button.Love = ButtonLove;

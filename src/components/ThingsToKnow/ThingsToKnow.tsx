@@ -79,7 +79,7 @@ export function ThingsToKnow({children}: IThingsToKnow){
                     </p>
                     <a href="#">
                         <span>
-                            Show All
+                            Add Dates
                         </span>
                         <i className="fa fa-chevron-right"></i>
                     </a>

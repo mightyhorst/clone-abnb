@@ -35,3 +35,47 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+
+.place-to-stay__img{
+
+}
+.place-to-stay__img > img{
+
+}
+
+/**
+ * @component .PlaceToStay .Button.love
+ */
+ .PlaceToStay .Button.love{
+
+ }
+
+/**
+ * @el 
+ */
+.place-to-stay__reviews{
+
+}
+/**
+ * @el 
+ */
+.place-to-stay__details{
+
+ }
+    .place-to-stay__room{
+
+    }
+    .place-to-stay__beds{
+
+    }
+    .place-to-stay__address{
+        
+    }
+
+/**
+ * @el 
+ */
+.place-to-stay__price{
+
+}
+
