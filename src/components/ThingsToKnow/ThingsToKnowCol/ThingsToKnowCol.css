@@ -1,0 +1,9 @@
+/**
+ * @component ThingsToKnowCol
+ */
+.ThingsToKnowCol{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(100% / 3);
+    width: calc(100% / 3);
+}

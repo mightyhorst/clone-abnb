@@ -10,7 +10,8 @@ import './ThingsToKnow.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {ThingsToKnowRow} from './ThingsToKnowRow';
+import {ThingsToKnowCol} from './ThingsToKnowCol';
 import {} from '../../uikit';
 
 /**
@@ -27,15 +28,20 @@ export interface IThingsToKnow{
  * @returns {ThingsToKnow}
  */
 export function ThingsToKnow({children}: IThingsToKnow){
-    /**
-     * @constant className - build the css classes to add to the ThingsToKnow
-     */
-    const className = clsx(
-        'ThingsToKnow',
-    );
     return (<>
-        <div className={className}>
-            {children}
+        <div className='ThingsToKnow'>
+            <h2> Things to know </h2>
+            <ThingsToKnowRow>
+                <ThingsToKnowCol>
+                    <h3>
+                        House rules
+                    </h3>
+                </ThingsToKnowCol>
+                <ThingsToKnowCol>
+                </ThingsToKnowCol>
+                <ThingsToKnowCol>
+                </ThingsToKnowCol>
+            </ThingsToKnowRow>
         </div>
     </>);
 }
