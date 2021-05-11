@@ -4,6 +4,7 @@ export * from './Card';
 export * from './Tab';
 export * from './Column';
 export * from './Map';
+export * from './LocationMap';
 export * from './Icon';
 export * from './ImageCarousel';
 export * from './Photo';
