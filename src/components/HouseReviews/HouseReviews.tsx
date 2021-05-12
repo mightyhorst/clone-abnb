@@ -17,6 +17,7 @@ import {
     Row,
     Column as Col,
     Button, 
+    Icon,
 } from '../../uikit';
 
 /**
@@ -36,7 +37,13 @@ export function HouseReviews({children}: IHouseReviews){
     return (<>
         <section className='HouseReviews'>
             <div className="house-reviews__summary">
-
+                <Icon.Star />
+                <div className="house-reviews__total-rating">
+                    4.97
+                </div>
+                <div className="house-reviews__total-reviews">
+                    (36 reviews)
+                </div>
             </div>
             <Row addClass='house-reviews__ratings'>
                 <Col.Half>

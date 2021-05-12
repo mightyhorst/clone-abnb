@@ -30,14 +30,8 @@ export interface IMorePlacesToStay{
  * @returns {MorePlacesToStay}
  */
 export function MorePlacesToStay(props: IMorePlacesToStay){
-    /**
-     * @constant className - build the css classes to add to the MorePlacesToStay
-     */
-    const className = clsx(
-        'MorePlacesToStay',
-    );
     return (<>
-        <div className={className}>
+        <div className={'MorePlacesToStay'}>
             <h2>
                 More places to stay
             </h2>
@@ -61,6 +55,8 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     pricePerNight={241}
                     currency='AUD'
                     noOfBeds={2}
+                    averageRating={0}
+                    noOfReviews={0}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house2.png'
@@ -68,6 +64,8 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     pricePerNight={241}
                     currency='AUD'
                     noOfBeds={2}
+                    averageRating={4.97}
+                    noOfReviews={36}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house3.png'
@@ -75,6 +73,8 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     pricePerNight={241}
                     currency='AUD'
                     noOfBeds={2}
+                    averageRating={3.0}
+                    noOfReviews={12}
                 />
                 <PlaceToStay 
                     imgSrc='/img/house4.png'

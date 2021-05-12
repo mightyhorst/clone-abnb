@@ -24,6 +24,8 @@ export interface IPlaceToStay{
     pricePerNight: number;
     currency?: string;
     noOfBeds: number;
+    averageRating?: number;
+    noOfReviews?: number;
 }
 
 /**
@@ -37,6 +39,8 @@ export function PlaceToStay({
     pricePerNight=241,
     currency='AUD',
     noOfBeds=2,
+    averageRating,
+    noOfReviews,
 }: IPlaceToStay){
     return (<>
         <div className='PlaceToStay'>
@@ -45,7 +49,19 @@ export function PlaceToStay({
                 <Button.Love isLoved={isLoved} />
             </div>
             <div className="place-to-stay__reviews">
-                No reviews yet
+                { noOfReviews > 1 ? 
+                    <>
+                        <div className="place-to-stay__total-rating">
+                            {averageRating}
+                        </div>
+                        <div className="place-to-stay__total-reviews">
+                            ({noOfReviews} reviews)
+                        </div>
+                    </> :
+                    <>
+                        No reviews yet
+                    </>
+                }
             </div>
             <div className="place-to-stay__details">
                 <span className="place-to-stay__room">
