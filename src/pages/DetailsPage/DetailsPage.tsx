@@ -16,7 +16,7 @@ import {
     HouseStats,
     HouseDetails,
     HouseBeds,
-    HouseAmmenities,
+    HouseAmenities,
     HouseReviews,
     HostDetails,
     HouseLocation, 
@@ -53,7 +53,7 @@ export function DetailsPage(props: IDetailsPage){
                     <HouseStats />
                     <HouseDetails />
                     <HouseBeds />
-                    <HouseAmmenities />
+                    <HouseAmenities />
                     <BookingDates />
                 </Column.TwoThirds>
                 <Column.Third>
