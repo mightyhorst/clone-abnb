@@ -10,8 +10,13 @@ import './HouseReviews.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
-import {} from '.';
+import {} from '../../components';
+import {
+    Review,
+    Rating,
+    Row,
+    Column as Col,
+} from '../../uikit';
 
 /**
  * @interface IHouseReviews
@@ -27,15 +32,28 @@ export interface IHouseReviews{
  * @returns {HouseReviews}
  */
 export function HouseReviews({children}: IHouseReviews){
-    /**
-     * @constant className - build the css classes to add to the HouseReviews
-     */
-    const className = clsx(
-        'HouseReviews',
-    );
     return (<>
-        <div className={className}>
-            {children}
-        </div>
+        <section className='HouseReviews'>
+            <div className="house-reviews__summary">
+
+            </div>
+            <Row addClass='house-reviews__ratings'>
+                <Col.Half>
+                    <Rating 
+                        label='Cleanliness'
+                        rating={4.9}
+                        total={5}
+                    />
+                </Col.Half>
+                <Col.Half>
+                </Col.Half>
+            </Row>
+            <Row addClass='house-reviews__reviews'>
+                <Col.Half>
+                </Col.Half>
+                <Col.Half>
+                </Col.Half>
+            </Row>
+        </section>
     </>);
 }

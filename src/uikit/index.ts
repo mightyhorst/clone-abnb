@@ -13,3 +13,5 @@ export * from './BookingDates';
 export * from './Calendar';
 export * from './BookingForm';
 export * from './PlaceToStay';
+export * from './Review';
+export * from './Rating';
