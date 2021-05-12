@@ -35,3 +35,40 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+
+/**
+ * @el Header
+ */
+header.booking-form__header{
+    
+}
+.booking-form__header-price{
+
+}
+.booking-form__header-reviews{
+
+}
+
+
+/**
+ * @el Form
+ */
+form.booking-form__form{
+
+}
+form.booking-form__form > fieldset{
+
+}
+form.booking-form__form > .Button{
+
+}
+
+form.booking-form__form label{
+
+}
+form.booking-form__form input{
+
+}
+form.booking-form__form select{
+
+}
