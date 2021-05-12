@@ -101,7 +101,7 @@ export function HouseAmenities({children}: IHouseAmenities){
                     </li>
                 </ul>
             </div> 
-            <footer>
+            <footer className='house-amenities__footer'>
                 <Button>
                     Show all 16 amenities
                 </Button>

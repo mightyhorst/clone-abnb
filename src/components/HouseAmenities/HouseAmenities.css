@@ -75,6 +75,16 @@
 }
 
 /**
+ * @el footer
+ */
+.house-amenities__footer{
+    flex: 1 1 100%;
+}
+.house-amenities__footer .Button{
+    font-weight: 500;
+}
+
+/**
  * @variant strikethrough
  */
 .strikethrough{
