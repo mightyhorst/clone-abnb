@@ -36,7 +36,7 @@ export function PlaceToStay({
     imgSrc='/img/house1.png',
     pricePerNight=241,
     currency='AUD',
-    noOfBeds=2
+    noOfBeds=2,
 }: IPlaceToStay){
     return (<>
         <div className='PlaceToStay'>
