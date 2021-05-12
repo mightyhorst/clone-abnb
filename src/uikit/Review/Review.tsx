@@ -18,7 +18,11 @@ import {} from '../../uikit';
  * @description Review props types
  */
 export interface IReview{
+    children: React.ReactNode;
     profileImg: string;
+    profileName: string;
+    datePublished: string;
+    reviewId: string;
 }
 
 /**
@@ -27,7 +31,11 @@ export interface IReview{
  * @returns {Review}
  */
 export function Review({
+    children,
     profileImg='/img/profile.jpg',
+    profileName,
+    datePublished,
+    reviewId,
 }: IReview){
     return (<>
         <div className='Review'>
@@ -36,15 +44,15 @@ export function Review({
                     <img src={profileImg} alt="profile"/>
                 </div>
                 <div className="review__profile">
-                    <h3> Kara </h3>
-                    <h5> April 2021 </h5>
+                    <h3> {profileName} </h3>
+                    <h5> {datePublished} </h5>
                 </div>
             </div>
             <p>
-                Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                {children}
             </p>
             <a 
-                href="#" 
+                href={`/#/review/${reviewId}`} 
                 className='review_read-more'
             >
                 read more

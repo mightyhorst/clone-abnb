@@ -16,6 +16,7 @@ import {
     Rating,
     Row,
     Column as Col,
+    Button, 
 } from '../../uikit';
 
 /**
@@ -50,10 +51,63 @@ export function HouseReviews({children}: IHouseReviews){
             </Row>
             <Row addClass='house-reviews__reviews'>
                 <Col.Half>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
                 </Col.Half>
                 <Col.Half>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
+                    <Rating 
+                        profileImg='/img/profile.jpg'
+                        profileName='Kara'
+                        datePublished='April 2021'
+                        reviewId='100'
+                    >
+                        Idyllic spot, perfect for an old style Kiwi holiday, with your own private beach! We enjoyed kayaking, swimming, walking to the wharf and across the property to waterfalls and arou… 
+                    </Rating>
                 </Col.Half>
             </Row>
+            <div className="house-reviews__show-all-reviews">
+                <Button>
+                    Show all 36 Reviews
+                </Button>
+            </div>
         </section>
     </>);
 }
