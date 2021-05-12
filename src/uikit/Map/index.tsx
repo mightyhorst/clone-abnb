@@ -5,7 +5,12 @@ import './Map.css';
 
 import { GOOGLE_MAP_KEY } from './config';
 
-const TodoMakeMarker = ({ text, lat, lng }) => <div>{text}</div>;
+interface TodoMakeMarkerProps{
+    label: string, 
+    lat: number; 
+    lng: number;
+}
+const TodoMakeMarker = ({ label, lat, lng }: TodoMakeMarkerProps) => <div>{label}</div>;
 
 interface IMap {
     center: {
@@ -27,7 +32,7 @@ export function Map(props: IMap) {
                     <TodoMakeMarker
                         lat={59.955413}
                         lng={30.337844}
-                        text="My Marker"
+                        label="My Marker"
                     />
                 </GoogleMapReact>
             </section>
