@@ -15,3 +15,4 @@ export * from './HostDetails';
 export * from './HouseLocation';
 export * from './MorePlacesToStay';
 export * from './ThingsToKnow';
+export * from './ExploreOtherOptions';

@@ -22,6 +22,7 @@ import {
     HouseLocation, 
     ThingsToKnow,
     MorePlacesToStay,
+    ExploreOtherOptions,
 } from '../../components';
 import {
     Row,
@@ -82,6 +83,7 @@ export function DetailsPage(props: IDetailsPage){
             <MorePlacesToStay 
                 placesToStay={placesToStay}
             />
+            <ExploreOtherOptions />
         </section>
     </>);
 }
