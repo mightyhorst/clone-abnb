@@ -49,7 +49,7 @@ export function PlaceToStay({
                 <Button.Love isLoved={isLoved} />
             </div>
             <div className="place-to-stay__reviews">
-                { noOfReviews > 1 ? 
+                { noOfReviews && noOfReviews > 1 ? 
                     <>
                         <div className="place-to-stay__total-rating">
                             {averageRating}
