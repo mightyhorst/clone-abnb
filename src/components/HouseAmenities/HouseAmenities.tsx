@@ -12,6 +12,7 @@ import './HouseAmenities.responsive.css';
  */
 import {
     Icon,
+    Button,
 } from '../../uikit';
 import {} from '.';
 
@@ -100,7 +101,11 @@ export function HouseAmenities({children}: IHouseAmenities){
                     </li>
                 </ul>
             </div> 
-
+            <footer>
+                <Button>
+                    Show all 16 amenities
+                </Button>
+            </footer>
         </div>
     </>);
 }
