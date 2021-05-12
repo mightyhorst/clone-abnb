@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Story, Meta } from '@storybook/react';
 
-import { HouseAmmenities, IHouseAmmenities } from './HouseAmmenities';
+import { HouseAmenities, IHouseAmenities } from './HouseAmenities';
 
 /**
  * @exports Story
  */
 export default {
-    title: 'DetailsPage/HouseAmmenities',
-    component: HouseAmmenities,
+    title: 'DetailsPage/HouseAmenities',
+    component: HouseAmenities,
     argTypes: {
 
     },
@@ -21,7 +21,7 @@ export default {
 /**
  * @constant Template
  */
-const Template: Story<IHouseAmmenities> = (args: IHouseAmmenities) => <HouseAmmenities {...args} />;
+const Template: Story<IHouseAmenities> = (args: IHouseAmenities) => <HouseAmenities {...args} />;
 
 /**
  * @example Example story
