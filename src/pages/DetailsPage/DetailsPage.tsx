@@ -24,6 +24,7 @@ import {
     MorePlacesToStay,
 } from '../../components';
 import {
+    Row,
     Column,
     BookingDates,
     BookingForm,
@@ -61,7 +62,7 @@ export function DetailsPage(props: IDetailsPage){
         <section className='DetailsPage'>
             <DetailsPageHeader />
             <DetailsPagePhotos />
-            <Column.Container>
+            <Row>
                 <Column.TwoThirds>
                     <HouseHeader />
                     <HouseStats />
@@ -73,7 +74,7 @@ export function DetailsPage(props: IDetailsPage){
                 <Column.Third>
                     <BookingForm />
                 </Column.Third>
-            </Column.Container>
+            </Row>
             <HouseReviews />
             <HostDetails />
             <HouseLocation />
