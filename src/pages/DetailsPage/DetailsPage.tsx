@@ -27,6 +27,7 @@ import {
     Column,
     BookingDates,
     BookingForm,
+    IPlaceToStay,
 } from '../../uikit';
 
 /**
@@ -43,6 +44,19 @@ export interface IDetailsPage{
  * @returns {DetailsPage}
  */
 export function DetailsPage(props: IDetailsPage){
+
+    const placesToStay: IPlaceToStay[] = [
+        {
+            imgSrc: '/img/house2.png',
+            isLoved: false,
+            pricePerNight: 241,
+            currency: 'AUD',
+            noOfBeds: 2,
+            averageRating: 4.97,
+            noOfReviews: 36,
+        },
+    ];
+
     return (<>
         <section className='DetailsPage'>
             <DetailsPageHeader />
@@ -64,7 +78,9 @@ export function DetailsPage(props: IDetailsPage){
             <HostDetails />
             <HouseLocation />
             <ThingsToKnow />
-            <MorePlacesToStay />
+            <MorePlacesToStay 
+                placesToStay={placesToStay}
+            />
         </section>
     </>);
 }

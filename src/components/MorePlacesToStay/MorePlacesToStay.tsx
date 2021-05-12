@@ -12,6 +12,7 @@ import './MorePlacesToStay.responsive.css';
  */
 import {} from '..';
 import {
+    IPlaceToStay,
     PlaceToStay,
     Button,
 } from '../../uikit';
@@ -22,6 +23,7 @@ import {
  */
 export interface IMorePlacesToStay{
     // children?: React.ReactNode;
+    placesToStay: IPlaceToStay[];
 }
 
 /**
