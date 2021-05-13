@@ -61,29 +61,30 @@ export function DetailsPage(props: IDetailsPage){
 
     return (<>
         <section className='DetailsPage'>
-            {/* <DetailsPageHeader /> */}
-            {/* <DetailsPagePhotos /> */}
-            {/* <Row> */}
-                {/* <Column.TwoThirds> */}
-                    {/* <HouseHeader /> */}
-                    {/* <HouseStats /> */}
-                    {/* <HouseDetails /> */}
-                    {/* <HouseBeds /> */}
+            <DetailsPageHeader />
+
+            <DetailsPagePhotos />
+            <Row>
+                <Column.TwoThirds>
+                    <HouseHeader />
+                    <HouseStats />
+                    <HouseDetails />
+                    <HouseBeds />
                     {/* <HouseAmenities /> */}
                     {/* <BookingDates /> */}
-                {/* </Column.TwoThirds> */}
-                {/* <Column.Third> */}
+                </Column.TwoThirds>
+                <Column.Third>
                     {/* <BookingForm /> */}
-                {/* </Column.Third> */}
-            {/* </Row> */}
-            {/* <HouseReviews />
-            <HostDetails />
-            <HouseLocation />
-            <ThingsToKnow />
-            <MorePlacesToStay 
+                </Column.Third>
+            </Row>
+            {/* <HouseReviews /> */}
+            {/* <HostDetails /> */}
+            {/* <HouseLocation /> */}
+            {/* <ThingsToKnow /> */}
+            {/* <MorePlacesToStay 
                 placesToStay={placesToStay}
-            />
-            <ExploreOtherOptions /> */}
+            /> */}
+            {/* <ExploreOtherOptions />  */}
         </section>
     </>);
 }
