@@ -12,8 +12,6 @@ import './PageHeader.responsive.css';
  */
 import { 
   Header, 
-} from "../../components";
-import { 
   Button, 
   DropDown, 
 } from "../../uikit";

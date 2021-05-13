@@ -1,0 +1,19 @@
+/**
+ * @component FooterContainer
+ */
+.Footer-Top {
+  padding: 32px 0;
+}
+@media (min-width: 1128px) {
+  .Footer-Top {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 48px;
+    padding-bottom: 140px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}

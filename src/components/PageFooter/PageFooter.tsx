@@ -10,10 +10,9 @@ import './PageFooter.responsive.css';
 /**
  * @requires Components
  */
-import {
+import { 
   Footer,
-} from '..';
-import { } from '../../uikit';
+} from '../../uikit';
 
 /**
  * @interface IPageFooter
