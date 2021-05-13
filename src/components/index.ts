@@ -29,3 +29,4 @@ export * from './HeroUnit';
 export * from './ExploreNearby';
 export * from './LiveAnywhere';
 export * from './BecomeHost';
+export * from './DiscoverExperiences';
