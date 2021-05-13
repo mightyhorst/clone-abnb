@@ -27,3 +27,4 @@ export * from './ExploreOtherOptions';
  */
 export * from './HeroUnit';
 export * from './ExploreNearby';
+export * from './LiveAnywhere';
