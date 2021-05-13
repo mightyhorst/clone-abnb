@@ -39,7 +39,8 @@ function App() {
             <HomePage />
           </Route>
           <Route path='/'>
-            <DetailsPage />
+            <HomePage />
+            {/* <DetailsPage /> */}
           </Route>
         </Switch>
       </Router>

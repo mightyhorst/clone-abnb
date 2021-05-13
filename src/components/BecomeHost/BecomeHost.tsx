@@ -32,10 +32,19 @@ export function BecomeHost({children}: IBecomeHost){
      */
     const className = clsx(
         'BecomeHost',
+        'become-a-host',
     );
     return (<>
         <div className={className}>
-            {children}
+            <h2>
+                Become a Host
+            </h2>
+            <p>
+                Earn extra income and unlock new opportunities by sharing your space.
+            </p>
+            <a href="#/become-a-host">
+                Learn More
+            </a>
         </div>
     </>);
 }
