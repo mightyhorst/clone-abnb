@@ -16,11 +16,8 @@ import './Calendar.responsive.css';
  * @description Calendar props types
  */
 export interface ICalendar {
-    // children?: React.ReactNode;
-    active: {
-        startDate: string;
-        endDate: string;
-    };
+    startDate: string;
+    endDate: string;
 }
 
 /**

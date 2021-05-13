@@ -44,8 +44,14 @@ export function BookingDates(props: IBookingDates){
                 Add your travel dates for exact pricing
             </p>
             <div className="booking-dates__columns">
-                <BookingDates />
-                <BookingDates />
+                <Calendar 
+                    startDate='10/01/2021'
+                    endDate='10/01/2021'
+                />
+                <Calendar 
+                    startDate='10/01/2021'
+                    endDate='10/01/2021'
+                />
             </div>
             <footer className='booking-dates__footer'>
                 <button className='booking-dates__keyboard'>
