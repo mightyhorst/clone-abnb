@@ -1,9 +1,0 @@
-/**
-* @component HeaderLogo
-*/
-.HeaderLogo{
-    display: block;
-}
-.HeaderLogo svg{
-    color: rgb(255, 56, 92) !important;
-}
