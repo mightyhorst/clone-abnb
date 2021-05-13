@@ -10,7 +10,7 @@ import './HeroUnit.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {Header} from '..';
 import {} from '../../uikit';
 
 /**
@@ -27,15 +27,19 @@ export interface IHeroUnit{
  * @returns {HeroUnit}
  */
 export function HeroUnit({children}: IHeroUnit){
-    /**
-     * @constant className - build the css classes to add to the HeroUnit
-     */
-    const className = clsx(
-        'HeroUnit',
-    );
     return (<>
-        <div className={className}>
-            {children}
+        <div className='HeroUnit hero-unit'>
+            <h1>
+                <div> The </div>
+                <div> Greatest </div>
+                <div> Outdoors </div>
+            </h1>
+            <p>
+                Wishlists curated by Airbnb.
+            </p>
+            <a href="#" className='hero-unit__get-inspired'>
+                Get inspired
+            </a>
         </div>
     </>);
 }

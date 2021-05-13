@@ -40,7 +40,11 @@ export interface IHomePage{
 export function HomePage(props: IHomePage){
     return (<>
         <Layout.Standard pageName="HomePage">
-            <PageAlert />
+            <PageAlert>
+                <a href="#">
+                    Get the latest on our COVID response plan
+                </a>
+            </PageAlert>
             <HeroUnit />
             <ExploreNearby />
             <LiveAnywhere />

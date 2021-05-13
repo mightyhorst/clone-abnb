@@ -27,14 +27,8 @@ export interface IExploreNearby{
  * @returns {ExploreNearby}
  */
 export function ExploreNearby({children}: IExploreNearby){
-    /**
-     * @constant className - build the css classes to add to the ExploreNearby
-     */
-    const className = clsx(
-        'ExploreNearby',
-    );
     return (<>
-        <div className={className}>
+        <div className={'ExploreNearby'}>
             {children}
         </div>
     </>);
