@@ -27,101 +27,91 @@ export interface IHouseBeds{
  * @constant {JSX.Element} bedroomOne - bedroom one
  */
 const bedroomOne = (<>
-    <CardCarousel>
-        <CardSimple>
-            <CardSimple.Icon>
-                <Icon.Bed></Icon.Bed>
-            </CardSimple.Icon>
-            <CardSimple.Title>
-                Bedroom 1
-            </CardSimple.Title>
-            <CardSimple.Body>
-                1 queen bed
-            </CardSimple.Body>
-        </CardSimple>
-    </CardCarousel>
+    <CardSimple>
+        <CardSimple.Icon>
+            <Icon.Bed></Icon.Bed>
+        </CardSimple.Icon>
+        <CardSimple.Title>
+            Bedroom 1
+        </CardSimple.Title>
+        <CardSimple.Body>
+            1 queen bed
+        </CardSimple.Body>
+    </CardSimple>
 </>);
 
 /**
  * @constant {JSX.Element} bedroomTwo - bedroom two
  */
 const bedroomTwo = (<>
-    <CardCarousel>
-        <CardSimple>
-            <CardSimple.Icon>
-                <Icon.Bed></Icon.Bed>
-                <Icon.SingleBed></Icon.SingleBed>
-                <Icon.SingleBed></Icon.SingleBed>
-            </CardSimple.Icon>
-            <CardSimple.Title>
-                Bedroom 2
-            </CardSimple.Title>
-            <CardSimple.Body>
-                1 double bed, 2 single beds
-            </CardSimple.Body>
-        </CardSimple>
-    </CardCarousel>
+    <CardSimple>
+        <CardSimple.Icon>
+            <Icon.Bed></Icon.Bed>
+            <Icon.SingleBed></Icon.SingleBed>
+            <Icon.SingleBed></Icon.SingleBed>
+        </CardSimple.Icon>
+        <CardSimple.Title>
+            Bedroom 2
+        </CardSimple.Title>
+        <CardSimple.Body>
+            1 double bed, 2 single beds
+        </CardSimple.Body>
+    </CardSimple>
 </>);
 
 /**
  * @constant {JSX.Element} bedroomThree - bedroom three
  */
 const bedroomThree = (<>
-    <CardCarousel>
-        <CardSimple>
-            <CardSimple.Icon>
-                <Icon.Sofa></Icon.Sofa>
-            </CardSimple.Icon>
-            <CardSimple.Title>
-                Common Spaces
-            </CardSimple.Title>
-            <CardSimple.Body>
-                1 sofa bed
-            </CardSimple.Body>
-        </CardSimple>
-    </CardCarousel>
+    <CardSimple>
+        <CardSimple.Icon>
+            <Icon.Sofa></Icon.Sofa>
+        </CardSimple.Icon>
+        <CardSimple.Title>
+            Common Spaces
+        </CardSimple.Title>
+        <CardSimple.Body>
+            1 sofa bed
+        </CardSimple.Body>
+    </CardSimple>
 </>);
 
 /**
  * @constant {JSX.Element} bedroomFour - bedroom four
  */
 const bedroomFour = (<>
-    <CardCarousel>
-        <CardSimple>
-            <CardSimple.Icon>
-                <Icon.Bed></Icon.Bed>
-                <Icon.Bed></Icon.Bed>
-                <Icon.Bed></Icon.Bed>
-            </CardSimple.Icon>
-            <CardSimple.Title>
-                Common Spaces
-            </CardSimple.Title>
-            <CardSimple.Body>
-                1 sofa bed
-            </CardSimple.Body>
-        </CardSimple>
-    </CardCarousel>
+    <CardSimple>
+        <CardSimple.Icon>
+            <Icon.Bed></Icon.Bed>
+            <Icon.Bed></Icon.Bed>
+            <Icon.Bed></Icon.Bed>
+        </CardSimple.Icon>
+        <CardSimple.Title>
+            Common Spaces
+        </CardSimple.Title>
+        <CardSimple.Body>
+            1 sofa bed
+        </CardSimple.Body>
+    </CardSimple>
 </>);
 
 /**
  * @constant {JSX.Element} bedroomFive - bedroom five
  */
 const bedroomFive = (<>
-    <CardCarousel>
-        <CardSimple>
-            <CardSimple.Icon>
-                <Icon.Bed></Icon.Bed>
-                <Icon.Bed></Icon.Bed>
-                <Icon.Bed></Icon.Bed>
-            </CardSimple.Icon>
-            <CardSimple.Title>
-                King bed
-            </CardSimple.Title>
-            <CardSimple.Body>
-                1 king bed, 1 sofa couch
-            </CardSimple.Body>
-        </CardSimple>
-    </CardCarousel>
+    <CardSimple>
+        <CardSimple.Icon>
+            <Icon.Bed></Icon.Bed>
+            <Icon.Bed></Icon.Bed>
+            <Icon.Bed></Icon.Bed>
+        </CardSimple.Icon>
+        <CardSimple.Title>
+            King bed
+        </CardSimple.Title>
+        <CardSimple.Body>
+            1 king bed, 1 sofa couch
+        </CardSimple.Body>
+    </CardSimple>
 </>);
 
 /**
@@ -135,11 +125,13 @@ export function HouseBeds({children}: IHouseBeds){
             <h2>
                 Sleeping arrangements
             </h2>
-            {bedroomOne}
-            {bedroomTwo}
-            {bedroomThree}
-            {bedroomFour}
-            {bedroomFive}
+            <CardCarousel>
+                {bedroomOne}
+                {bedroomTwo}
+                {bedroomThree}
+                {bedroomFour}
+                {bedroomFive}
+            </CardCarousel>
         </div>
     </>);
 }
