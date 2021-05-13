@@ -1,4 +1,5 @@
 import React from "react";
+import clsx from 'clsx';
 import "./Header.css";
 
 import { HeaderLogo } from "./HeaderLogo";
@@ -7,13 +8,21 @@ import { HeaderNav } from "./HeaderNav";
 
 interface IHeader {
   children?: React.ReactNode;
+  isSticky?: boolean;
 }
 
-export function Header(props: IHeader) {
+export function Header({
+  isSticky = false, 
+  children,
+}: IHeader) {
+  const className = clsx(
+    'Header',
+    {isSticky}
+  );
   return (
     <>
-      <header className="Header">
-        <div className="header-content">{props.children}</div>
+      <header className={className}>
+        <div className="header-content">{children}</div>
       </header>
     </>
   );

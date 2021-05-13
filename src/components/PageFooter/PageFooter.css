@@ -1,32 +1,33 @@
 /**
- * @component HeroUnit
+ * @component PageFooter
  */
-.HeroUnit{
+.PageFooter{
     /**
      * @display
      */
-    display: block;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /**
      * @theme
      */
-     
-
+     background-color: transparent;
+     border: 1px solid rgba(0,0,0,0);
+     border: 0;
+     border-radius: 0px;
     /**
      * @boxmodel
      */
     padding: 0px;
     margin: 0px;
     width: 100%;
-    height: 100vh;
-    min-height: 480px;
+    height: 100%;
     /**
      * @position
      */
     position: relative;
     top: 0px;
     left: 0px;
-
     /**
      * @font
      */
@@ -34,33 +35,3 @@
     font-family: inherit;
     font-weight: inherit;
 } 
-
-/**
-* @component Header
-*/
-.HeroUnit .Header{
-
-}
-.HeroUnit .Header.sticky{
-
-}
-
-/**
-* @el Contents
-*/
-.hero-unit__contents{
-
-}
-.hero-unit__contents h1{
-
-}
-.hero-unit__contents p{
-    
-}
-
-/**
-* @el Get Inspired
-*/
-.hero-unit__get-inspired{
-
-}

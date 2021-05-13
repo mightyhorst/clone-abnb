@@ -10,7 +10,9 @@ import './HeroUnit.responsive.css';
 /**
  * @requires Components
  */
-import {Header} from '..';
+import {
+    PageHeader,
+} from '..';
 import {} from '../../uikit';
 
 /**
@@ -29,17 +31,23 @@ export interface IHeroUnit{
 export function HeroUnit({children}: IHeroUnit){
     return (<>
         <div className='HeroUnit hero-unit'>
-            <h1>
-                <div> The </div>
-                <div> Greatest </div>
-                <div> Outdoors </div>
-            </h1>
-            <p>
-                Wishlists curated by Airbnb.
-            </p>
-            <a href="#" className='hero-unit__get-inspired'>
-                Get inspired
-            </a>
+            <PageHeader 
+                hideSearch={false} 
+                isSticky={false}
+            />
+            <div className="hero-unit__contents">
+                <h1>
+                    <div> The </div>
+                    <div> Greatest </div>
+                    <div> Outdoors </div>
+                </h1>
+                <p>
+                    Wishlists curated by Airbnb.
+                </p>
+                <a href="#" className='hero-unit__get-inspired'>
+                    Get inspired
+                </a>
+            </div>
         </div>
     </>);
 }

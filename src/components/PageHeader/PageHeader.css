@@ -1,10 +1,12 @@
 /**
- * @layout LayoutStandard
+ * @component PageHeader
  */
-.LayoutStandard {
-}
-/*
-.header-navbar {
+.PageHeader {}
+
+/**
+ * @el Nav
+ */
+.header__nav {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   -webkit-box-align: center;
@@ -21,7 +23,11 @@
   justify-content: flex-end;
   height: 80px;
 }
-.nav-btns {
+
+/**
+ * @el Nav Buttons
+ */
+.header__nav-btns {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   display: -webkit-box;
@@ -35,10 +41,16 @@
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   margin-right: 8px;
+  /**
+    * @todo responsive
+    */
   height: 42px;
 }
 
-.btn-host {
+/**
+ * @el Switch to Hosting
+ */
+.header__switch-to-hosting {
   height: 100%;
   overflow: hidden;
   white-space: nowrap;
@@ -61,15 +73,21 @@
   align-items: center;
   justify-content: center;
 }
-.btn-host:hover {
+
+.header__switch-to-hosting:hover {
   background: #e7e7e7;
   border-radius: 50px;
 }
-.globe-div {
+
+/**
+ * @el Globe
+ */
+.header__globe {
   position: relative;
   display: inline;
 }
-.globe-div > button {
+
+.header__globe > button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -96,7 +114,8 @@
   z-index: 1;
   color: #222222;
 }
-.globe-div > button::before {
+
+.header__globe > button::before {
   border-radius: 22px;
   bottom: 0px;
   content: "";
@@ -106,7 +125,11 @@
   top: 0px;
   z-index: 0;
 }
-.globe-icon {
+
+/**
+ * @component Globe Icon
+ */
+.header__globe-icon {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -120,18 +143,23 @@
   position: relative;
   z-index: 1;
 }
-.globe-icon svg {
+
+.header__globe-icon svg {
   display: block;
   height: 16px;
   width: 16px;
   fill: currentcolor;
 }
-.globe-div:hover {
+
+.header__globe:hover {
   background: #e7e7e7;
   border-radius: 50%;
 }
-.profile-section {
+
+/**
+ * @el Profile
+ */
+.header__profile {
   display: inline;
   position: relative;
 }
-*/

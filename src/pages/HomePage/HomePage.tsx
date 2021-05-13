@@ -9,7 +9,9 @@ import './HomePage.responsive.css';
 /**
  * @requires Layout
  */
-import {Layout} from '../Layout';
+import {
+    
+} from '../Layout';
 /**
  * @requires Components
  */
@@ -19,6 +21,7 @@ import {
     LiveAnywhere,
     BecomeHost,
     DiscoverExperiences,
+    PageFooter,
 } from '../../components';
 import {
     PageAlert,
@@ -39,7 +42,7 @@ export interface IHomePage{
  */
 export function HomePage(props: IHomePage){
     return (<>
-        <Layout.Standard pageName="HomePage">
+        <section className="HomePage">
             <PageAlert>
                 <a href="#">
                     Get the latest on our COVID response plan
@@ -50,6 +53,7 @@ export function HomePage(props: IHomePage){
             <LiveAnywhere />
             <BecomeHost />
             <DiscoverExperiences />
-        </Layout.Standard>
+            <PageFooter />
+        </section>
     </>);
 }
