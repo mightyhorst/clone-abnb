@@ -1,5 +1,6 @@
-export * from './Header';
-export * from './Footer';
+/**
+ * @page Layout
+ */
 export * from './PageHeader';
 export * from './PageFooter';
 /**
