@@ -104,25 +104,38 @@ export function PageHeader({
                   Notifications
                   <div className="hasNotifications"></div>
                 </DropDown.Item>
-                <DropDown.Item isBold href="#">
+                <DropDown.Item isBold href="#/trips">
                   Trips
                 </DropDown.Item>
                 <DropDown.Item isBold href="#">
-                  wishlist
+                  Wishlist
+                </DropDown.Item>
+                <DropDown.Item isDivider />
+                <DropDown.Item href="#/search">
+                  (@debug) Search Page
+                </DropDown.Item>
+                <DropDown.Item href="#/details">
+                  (@debug) Details Page
+                </DropDown.Item>
+                <DropDown.Item href="#/trips">
+                  (@debug) Trips Page
+                </DropDown.Item>
+                <DropDown.Item href="#/home">
+                  (@debug) Home Page
                 </DropDown.Item>
                 <DropDown.Item isDivider />
                 <DropDown.Item href="#">
                   Manage listing
                 </DropDown.Item>
                 <DropDown.Item href="#">
-                  host an experience
+                  Host an experience
                 </DropDown.Item>
                 <DropDown.Item href="#">
-                  account
+                  Account
                 </DropDown.Item>
                 <DropDown.Item isDivider />
                 <DropDown.Item href="#">
-                  help
+                  Help
                 </DropDown.Item>
                 <DropDown.Item href="#">
                   Log out
