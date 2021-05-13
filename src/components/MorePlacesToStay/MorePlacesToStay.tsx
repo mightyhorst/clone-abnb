@@ -79,7 +79,7 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     noOfReviews={12}
                 />
                 <PlaceToStay 
-                    imgSrc='/img/house4.jpg'
+                    imgSrc='/img/house3.jpg'
                     isLoved={false}
                     pricePerNight={241}
                     currency='AUD'
