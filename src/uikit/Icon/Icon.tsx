@@ -17,7 +17,11 @@ interface IconProps{
         'washing' |
         'hangers' |
         'smokealarm' |
-        'carbonalarm';
+        'carbonalarm' |
+        'bed' | 
+        'bed-single' | 
+        'sofa'
+    ;
     addClass?: string;
 }
 export function Icon({variant, addClass}: IconProps){
@@ -143,3 +147,27 @@ export function IconCarbonAlarm(){
     return <Icon variant='carbonalarm' />;
 }
 Icon.CarbonAlarm = IconCarbonAlarm;
+
+/**
+ * @variant IconBed
+ */
+export function IconBed(){
+    return <Icon variant='bed' />;
+}
+Icon.Bed = IconBed;
+
+/**
+ * @variant IconSingleBed
+ */
+export function IconSingleBed(){
+    return <Icon variant='bed-single' />;
+}
+Icon.SingleBed = IconSingleBed;
+
+/**
+ * @variant IconSofa
+ */
+export function IconSofa(){
+    return <Icon variant='sofa' />;
+}
+Icon.Sofa = IconSofa;

@@ -125,3 +125,27 @@
 .icon-carbonalarm{
       
 }
+
+/**
+ * @variant IconBed
+ */
+.IconBed,
+.icon-bed{
+      
+}
+
+/**
+ * @variant IconSingleBed
+ */
+.IconSingleBed,
+.icon-bed-single{
+      
+}
+
+/**
+ * @variant IconSofa
+ */
+.IconSofa,
+.icon-sofa{
+      
+}

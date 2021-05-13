@@ -16,3 +16,5 @@ export * from './PlaceToStay';
 export * from './Review';
 export * from './Rating';
 export * from './ImageProfile';
+export * from './CardCarousel';
+export * from './CardSimple';
