@@ -1,7 +1,21 @@
 import React from "react";
 import "./App.css";
 
+/**
+ * @requires Router
+ */
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+
+/**
+ * @requires Pages
+ */
 import { 
+  HomePage,
   TripsPage, 
   SearchPage,
   DetailsPage,
@@ -10,9 +24,25 @@ import {
 function App() {
   return (
     <main className="App">
-      {/* <TripsPage /> */}
-      {/* <SearchPage /> */}
-      <DetailsPage />
+      <Router>
+        <Switch>
+          <Route path='/trips'>
+            <TripsPage />
+          </Route>
+          <Route path='/search'>
+            <SearchPage />
+          </Route>
+          <Route path='/details'>
+            <DetailsPage />
+          </Route>
+          <Route path='/home'>
+            <HomePage />
+          </Route>
+          <Route path='/'>
+            <DetailsPage />
+          </Route>
+        </Switch>
+      </Router>
     </main>
   );
 }
