@@ -82,8 +82,9 @@ export function BookingForm({children}: IBookingForm){
                             <label htmlFor='booking-form__guests'>
                                 <select 
                                     id='booking-form__guests'
+                                    defaultValue='1'
                                 >
-                                    <option value="1" selected>
+                                    <option value="1">
                                         1 guest
                                     </option>
                                     <option value="2">

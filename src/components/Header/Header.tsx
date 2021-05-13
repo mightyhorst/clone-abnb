@@ -29,7 +29,7 @@ export function Header({
 }
 
 /**
- * @exports Compound components - reexport sun components so they are grouped together
+ * @exports Compound components - reexport components so they are grouped together
  */
 Header.Logo = HeaderLogo;
 Header.Search = HeaderSearch;
