@@ -78,7 +78,7 @@ export function DetailsPage(props: IDetailsPage){
                 </Column.Third>
             </Row>
             <HouseReviews />
-            {/* <HostDetails /> */}
+            <HostDetails />
             {/* <HouseLocation /> */}
             {/* <ThingsToKnow /> */}
             {/* <MorePlacesToStay 
