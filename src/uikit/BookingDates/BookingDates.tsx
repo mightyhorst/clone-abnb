@@ -55,7 +55,7 @@ export function BookingDates(props: IBookingDates){
             </div>
             <footer className='booking-dates__footer'>
                 <button className='booking-dates__keyboard'>
-                    <i className="fa fa-keyboard"></i>
+                    <i className="fa fa-keyboard-o"></i>
                 </button>
                 <button className='booking-dates__clear-dates'>
                     Clear dates
