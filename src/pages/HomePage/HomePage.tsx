@@ -25,6 +25,7 @@ import {
 } from '../../components';
 import {
     PageAlert,
+    Wrapper,
 } from '../../uikit';
 
 /**
@@ -49,10 +50,12 @@ export function HomePage(props: IHomePage){
                 </a>
             </PageAlert>
             <HeroUnit />
-            <ExploreNearby />
-            <LiveAnywhere />
-            <BecomeHost />
-            <DiscoverExperiences />
+            <Wrapper>
+                <ExploreNearby />
+                <LiveAnywhere />
+                <BecomeHost />
+                <DiscoverExperiences />
+            </Wrapper>
             <PageFooter />
         </section>
     </>);

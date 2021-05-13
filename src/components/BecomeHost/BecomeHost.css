@@ -21,10 +21,11 @@
     background-image: url(https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #201c19;
     /**
     * @border
     */
-    border-radius: 5px;
+    border-radius: 16px;
     overflow: hidden;
     /**
      * @font

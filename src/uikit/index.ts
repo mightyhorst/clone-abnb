@@ -1,5 +1,6 @@
 export * from './Header';
 export * from './Footer';
+export * from './Wrapper';
 export * from './Button';
 export * from './DropDown';
 export * from './Card';
