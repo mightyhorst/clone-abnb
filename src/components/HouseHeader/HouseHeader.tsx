@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 
 /**
  * @requires Styles
@@ -10,15 +9,15 @@ import './HouseHeader.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
-import {} from '.';
+import {
+    ImageProfile,
+} from '../../uikit';
 
 /**
  * @interface IHouseHeader
  * @description HouseHeader props types
  */
 export interface IHouseHeader{
-    children?: React.ReactNode;
 }
 
 /**
@@ -26,16 +25,31 @@ export interface IHouseHeader{
  * @param props - props for children 
  * @returns {HouseHeader}
  */
-export function HouseHeader({children}: IHouseHeader){
-    /**
-     * @constant className - build the css classes to add to the HouseHeader
-     */
-    const className = clsx(
-        'HouseHeader',
-    );
+export function HouseHeader({}: IHouseHeader){
     return (<>
-        <div className={className}>
-            {children}
+        <div className='HouseHeader'>
+            <div className="house-header__details">
+                <h2>
+                    Entire house hosted by Paul
+                </h2>
+                <ul className="home-header__subtitle">
+                    <li>
+                        6 guests
+                    </li>
+                    <li>
+                        3 bedrooms
+                    </li>
+                    <li>
+                        5 beds
+                    </li>
+                    <li>
+                        1 bath
+                    </li>
+                </ul>
+            </div>
+            <div className="house-header__profile">
+                <ImageProfile />
+            </div>
         </div>
     </>);
 }

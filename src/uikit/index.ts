@@ -15,3 +15,4 @@ export * from './BookingForm';
 export * from './PlaceToStay';
 export * from './Review';
 export * from './Rating';
+export * from './ImageProfile';

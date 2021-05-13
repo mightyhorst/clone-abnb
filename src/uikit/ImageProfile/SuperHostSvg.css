@@ -1,0 +1,9 @@
+/**
+ * @component SuperHostSvg
+ */
+.SuperHostSvg{
+    height: 1em; 
+    width: 1em; 
+    display: block; 
+    fill: currentcolor;
+}
