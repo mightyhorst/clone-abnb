@@ -49,7 +49,7 @@ export function DetailsPage(props: IDetailsPage){
 
     const placesToStay: IPlaceToStay[] = [
         {
-            imgSrc: '/img/house2.png',
+            imgSrc: '/img/house2.jpg',
             isLoved: false,
             pricePerNight: 241,
             currency: 'AUD',

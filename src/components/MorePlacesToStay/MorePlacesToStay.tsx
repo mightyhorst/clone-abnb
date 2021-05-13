@@ -52,7 +52,7 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
             </nav>
             <div className='more-places-to-stay__places'>
                 <PlaceToStay 
-                    imgSrc='/img/house1.png'
+                    imgSrc='/img/house1.jpg'
                     isLoved
                     pricePerNight={241}
                     currency='AUD'
@@ -61,7 +61,7 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     noOfReviews={0}
                 />
                 <PlaceToStay 
-                    imgSrc='/img/house2.png'
+                    imgSrc='/img/house2.jpg'
                     isLoved={false}
                     pricePerNight={241}
                     currency='AUD'
@@ -70,7 +70,7 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     noOfReviews={36}
                 />
                 <PlaceToStay 
-                    imgSrc='/img/house3.png'
+                    imgSrc='/img/house3.jpg'
                     isLoved={false}
                     pricePerNight={241}
                     currency='AUD'
@@ -79,7 +79,7 @@ export function MorePlacesToStay(props: IMorePlacesToStay){
                     noOfReviews={12}
                 />
                 <PlaceToStay 
-                    imgSrc='/img/house4.png'
+                    imgSrc='/img/house4.jpg'
                     isLoved={false}
                     pricePerNight={241}
                     currency='AUD'
