@@ -70,8 +70,8 @@ export function DetailsPage(props: IDetailsPage){
                     <HouseStats />
                     <HouseDetails />
                     <HouseBeds />
-                    {/* <HouseAmenities /> */}
-                    {/* <BookingDates /> */}
+                    <HouseAmenities />
+                    <BookingDates />
                 </Column.TwoThirds>
                 <Column.Third>
                     {/* <BookingForm /> */}
