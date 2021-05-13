@@ -79,12 +79,12 @@ export function DetailsPage(props: IDetailsPage){
             </Row>
             <HouseReviews />
             <HostDetails />
-            {/* <HouseLocation /> */}
-            {/* <ThingsToKnow /> */}
-            {/* <MorePlacesToStay 
+            <HouseLocation />
+            <ThingsToKnow />
+            <MorePlacesToStay 
                 placesToStay={placesToStay}
-            /> */}
-            {/* <ExploreOtherOptions />  */}
+            />
+            <ExploreOtherOptions />
         </section>
     </>);
 }
