@@ -18,3 +18,4 @@ export * from './Rating';
 export * from './ImageProfile';
 export * from './CardCarousel';
 export * from './CardSimple';
+export * from './PageAlert';
