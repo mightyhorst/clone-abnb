@@ -13,7 +13,7 @@ const upcomingTab = (
         You don’t have any past trips yet—but when you do, you’ll find them
         here.
       </p>
-      <Card.Image imgSrc="/img/Capture.PNG" />
+      <Card.Image imgSrc="/img/trips.png" />
     </div>
     <div className="visit-help-center">
       <p>

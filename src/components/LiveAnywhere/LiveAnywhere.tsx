@@ -35,6 +35,9 @@ export function LiveAnywhere({children}: ILiveAnywhere){
     );
     return (<>
         <div className={className}>
+            <h2>
+                Live Anywhere
+            </h2>
             {children}
         </div>
     </>);

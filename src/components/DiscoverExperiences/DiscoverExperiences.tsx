@@ -10,7 +10,9 @@ import './DiscoverExperiences.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {
+    DiscoverExperienceCard,
+} from './DiscoverExperienceCard';
 import {} from '../../uikit';
 
 /**
@@ -32,10 +34,33 @@ export function DiscoverExperiences({children}: IDiscoverExperiences){
      */
     const className = clsx(
         'DiscoverExperiences',
+        'discover-experiences',
     );
     return (<>
         <div className={className}>
-            {children}
+            <h2>
+                Discover Experiences
+            </h2>
+            <h5>
+                Unique activities with local experts—in person or online.
+            </h5>
+            <DiscoverExperienceCard.List>
+                <DiscoverExperienceCard
+                    imgSrc='/img/discover-experience-1.jpg'
+                    title='Outdoor Collection'
+                    description='Experiences that immerse you in nature.'
+                />
+                <DiscoverExperienceCard
+                    imgSrc='/img/discover-experience-2.jpg'
+                    title='Online Experiences'
+                    description='Live, interactive activities led by Hosts.'
+                />
+                <DiscoverExperienceCard
+                    imgSrc='/img/discover-experience-3.jpg'
+                    title='Experiences'
+                    description='Local things to do, wherever you are.'
+                />
+            </DiscoverExperienceCard.List>
         </div>
     </>);
 }

@@ -35,16 +35,18 @@ export function BecomeHost({children}: IBecomeHost){
         'become-a-host',
     );
     return (<>
-        <div className={className}>
-            <h2>
-                Become a Host
-            </h2>
-            <p>
-                Earn extra income and unlock new opportunities by sharing your space.
-            </p>
-            <a href="#/become-a-host">
-                Learn More
-            </a>
-        </div>
+        <section className={className}>
+            <div className="become-a-host__details">
+                <h2>
+                    Become a Host
+                </h2>
+                <p>
+                    Earn extra income and unlock new opportunities by sharing your space.
+                </p>
+                <a href="#/become-a-host">
+                    Learn More
+                </a>
+            </div>
+        </section>
     </>);
 }
