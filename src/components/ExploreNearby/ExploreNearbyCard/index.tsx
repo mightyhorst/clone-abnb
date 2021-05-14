@@ -14,6 +14,7 @@ export function ExploreNearbyCard({
     return (
         <div className='ExploreNearbyCard'>
             <img 
+                className='explore-nearby__img'
                 src={imgSrc} 
                 alt="explore nearby" 
             />
