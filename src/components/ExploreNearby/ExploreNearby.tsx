@@ -1,5 +1,5 @@
 import React from 'react';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 
 /**
  * @requires Styles
@@ -10,7 +10,7 @@ import './ExploreNearby.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {ExploreNearbyCard} from './ExploreNearbyCard';
 import {} from '../../uikit';
 
 /**
@@ -28,8 +28,14 @@ export interface IExploreNearby{
  */
 export function ExploreNearby({children}: IExploreNearby){
     return (<>
-        <div className={'ExploreNearby'}>
-            {children}
-        </div>
+        <section className={'ExploreNearby'}>
+            <ExploreNearbyCard.List>
+                <ExploreNearbyCard
+                    imgSrc='/img/nearby-1.jpg'
+                    title={'Karaka'}
+                    driveTime={6.5}
+                />
+            </ExploreNearbyCard.List>
+        </section>
     </>);
 }

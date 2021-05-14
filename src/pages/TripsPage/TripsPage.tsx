@@ -27,14 +27,14 @@ const pastTab = (
   <>
     <Card.Container>
       <Card>
-        <Card.Image imgSrc="/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg" />
+        <Card.Image imgSrc="/img/house1.jpg" />
         <div className="card-content">
           <Card.Title
             subTitle="28 April 2020 - 29 April 2020"
             title={"Auckland"}
           />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house2.jpg">
               Oneroa Private Oasis
             </Card.List.Item>
           </Card.List>
@@ -42,14 +42,14 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
       <Card>
-        <Card.Image imgSrc="/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg" />
+        <Card.Image imgSrc="/img/house3.jpg" />
         <div className="card-content">
           <Card.Title
             subTitle="28 April 2020 - 29 April 2020"
             title={"Auckland"}
           />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house1.jpg">
               Brand New & Ready For You
             </Card.List.Item>
           </Card.List>
@@ -57,11 +57,11 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
       <Card>
-        <Card.Image imgSrc="/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg" />
+        <Card.Image imgSrc="/img/house2.jpg" />
         <div className="card-content">
           <Card.Title subTitle="07 jan 2020 - 09 jan 2020" title={"Piha"} />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house1.jpg">
               Piha Beach Studio
             </Card.List.Item>
           </Card.List>
@@ -69,14 +69,14 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
       <Card>
-        <Card.Image imgSrc="/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg" />
+        <Card.Image imgSrc="/img/house2.jpg" />
         <div className="card-content">
           <Card.Title
             subTitle="28 April 2020 - 29 April 2020"
             title={"Auckland"}
           />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house2.jpg">
               Oneroa Private Oasis
             </Card.List.Item>
           </Card.List>
@@ -84,14 +84,14 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
       <Card>
-        <Card.Image imgSrc="/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg" />
+        <Card.Image imgSrc="/img/house3.jpg" />
         <div className="card-content">
           <Card.Title
             subTitle="28 April 2020 - 29 April 2020"
             title={"Auckland"}
           />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house3.jpg">
               Brand New & Ready For You
             </Card.List.Item>
           </Card.List>
@@ -99,11 +99,11 @@ const pastTab = (
         <Card.Footer href="#">Show more trip plans</Card.Footer>
       </Card>
       <Card>
-        <Card.Image imgSrc="/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg" />
+        <Card.Image imgSrc="/img/house1.jpg" />
         <div className="card-content">
           <Card.Title subTitle="07 jan 2020 - 09 jan 2020" title={"Piha"} />
           <Card.List>
-            <Card.List.Item href="#" imgSrc="/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg">
+            <Card.List.Item href="#" imgSrc="/img/house1.jpg">
               Piha Beach Studio
             </Card.List.Item>
           </Card.List>
@@ -113,7 +113,8 @@ const pastTab = (
     </Card.Container>
     <div className="visit-help-center">
       <p>
-        Can’t find your reservation here?<a href="#"> Visit the Help Centre.</a>
+        Can’t find your reservation here?
+        <a href="#"> Visit the Help Centre.</a>
       </p>
     </div>
   </>
