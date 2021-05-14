@@ -10,7 +10,9 @@ import './LiveAnywhere.responsive.css';
 /**
  * @requires Components
  */
-import {} from '..';
+import {
+    LiveAnywhereCard,
+} from './LiveAnywhereCard';
 import {} from '../../uikit';
 
 /**
@@ -18,7 +20,6 @@ import {} from '../../uikit';
  * @description LiveAnywhere props types
  */
 export interface ILiveAnywhere{
-    children?: React.ReactNode;
 }
 
 /**
@@ -26,7 +27,7 @@ export interface ILiveAnywhere{
  * @param props - props for children 
  * @returns {LiveAnywhere}
  */
-export function LiveAnywhere({children}: ILiveAnywhere){
+export function LiveAnywhere({}: ILiveAnywhere){
     /**
      * @constant className - build the css classes to add to the LiveAnywhere
      */
@@ -38,7 +39,24 @@ export function LiveAnywhere({children}: ILiveAnywhere){
             <h2>
                 Live Anywhere
             </h2>
-            {children}
+            <LiveAnywhereCard.List>
+                <LiveAnywhereCard 
+                    imgSrc='/img/house1.jpg'
+                    title='Outdoor getaways'
+                />
+                <LiveAnywhereCard 
+                    imgSrc='/img/house2.jpg'
+                    title='Unique stays'
+                />
+                <LiveAnywhereCard 
+                    imgSrc='/img/house3.jpg'
+                    title='Entire homes'
+                />
+                <LiveAnywhereCard 
+                    imgSrc='/img/house4.jpg'
+                    title='Pets allowed'
+                />
+            </LiveAnywhereCard.List>
         </section>
     </>);
 }

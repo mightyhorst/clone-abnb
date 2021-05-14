@@ -14,7 +14,7 @@
      */
     height: 480px;
     width: 100%;
-    padding-left: 5%;
+    margin-bottom: 80px;
     /**
      * @background
      */
@@ -47,7 +47,7 @@
       */
      height: 100%;
      width: 40%;
-     padding-left: 5%;
+     padding-left: 10%;
 }
 .become-a-host h2{
     font-size: 600;

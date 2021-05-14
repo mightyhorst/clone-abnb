@@ -8,6 +8,7 @@
   background-color: #f7f7f7;
   border-top: 1px solid #dddddd;
 }
+
 .footer-container {
   max-width: var(--page-shell-max-content-width, 1440px);
 }

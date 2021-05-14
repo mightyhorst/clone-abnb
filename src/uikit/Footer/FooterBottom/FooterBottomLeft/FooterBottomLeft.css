@@ -1,0 +1,39 @@
+/**
+ * @component Footer Bottom Left
+ */
+.FooterBottomLeft,
+.footer-bottom-left {
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.footer-bottom-left__copyright {
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+    display: inline-block;
+}
+.footer-bottom-left li a {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer-bottom-left li::before {
+    display: inline-block;
+    text-align: center;
+    width: 19px;
+    content: '•';
+    position: relative;
+}
+.footer-bottom-left li:first-of-type::before{
+    content: '';
+    display: none;
+}

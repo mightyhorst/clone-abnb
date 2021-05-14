@@ -2,7 +2,9 @@
  * @component FooterContainer
  */
 .Footer-Top {
-  padding: 32px 0;
+  padding: 32px 80px;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 1128px) {
   .Footer-Top {

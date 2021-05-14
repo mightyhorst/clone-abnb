@@ -1,0 +1,61 @@
+/**
+ * @component Footer Bottom Right
+ */
+.FooterBottomRight {
+    display: flex;
+    display: flex;
+}
+
+.FooterBottomRight ul {
+    display: flex;
+    display: flex;
+    list-style-type: none;
+}
+
+.FooterBottomRight li {
+    padding-left: 16px;
+}
+
+.FooterBottomRight li a {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/**
+ * @el language icon
+ */
+.FooterBottomRight .language-icon {
+    margin-right: 8px;
+}
+.FooterBottomRight .language-icon svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: currentColor;
+}
+
+/**
+ * @el language
+ */
+.FooterBottomRight .language {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/**
+ * @el social icons
+ */
+.FooterBottomRight .social-icons svg {
+    height: 18px;
+    width: 18px;
+    display: block;
+    fill: currentColor;
+}

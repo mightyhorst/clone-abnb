@@ -4,27 +4,22 @@ import './LiveAnywhereCard.css';
 interface LiveAnywhereCardProps{
     imgSrc: string;
     title: string;
-    driveTime: number;
 }
 export function LiveAnywhereCard({
     imgSrc,
     title,
-    driveTime,
 }: LiveAnywhereCardProps){
     return (
         <div className='LiveAnywhereCard'>
             <img 
-                className='explore-nearby__img'
+                className='live-anywhere__img'
                 src={imgSrc} 
                 alt="explore nearby" 
             />
-            <div className="explore-nearby__card-details">
+            <div className="live-anywhere__card-details">
                 <strong>
                     {title}
                 </strong>
-                <p>
-                    {driveTime} drive time
-                </p>
             </div>
         </div>
     );
@@ -35,7 +30,7 @@ interface LiveAnywhereCardListProps{
 }
 export function LiveAnywhereCardList({children}: LiveAnywhereCardListProps){
     return (
-        <div className='LiveAnywhereCardList explore-nearby__card-list'>
+        <div className='LiveAnywhereCardList live-anywhere__card-list'>
             {children}
         </div>
     );

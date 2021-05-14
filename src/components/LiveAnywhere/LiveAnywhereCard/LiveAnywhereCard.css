@@ -1,6 +1,47 @@
 /**
- * @component LiveAnywhereCard
- */
-.LiveAnywhereCard{
-
+* @component LiveAnywhereCard
+* @el live-anywhere__card
+*/
+.LiveAnywhereCard,
+.live-anywhere__card{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    flex-direction: column;
 }
+
+/**
+ * @component LiveAnywhereCardList
+ * @el live-anywhere__card-list
+ */
+.live-anywhere__card-list{
+    columns: 4;
+    display: block;
+    width: 100%;
+}
+
+/**
+ * @el img
+ */
+.live-anywhere__img {
+    border-radius: 5px;
+    width: 100%;
+    flex: 1 1;
+}
+
+/**
+ * @el details
+ */
+.live-anywhere__card-details {
+    flex: 1 1;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.live-anywhere__card-details strong {
+    font-weight: 600;
+}
+
