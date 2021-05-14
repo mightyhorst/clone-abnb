@@ -120,7 +120,7 @@ const searchResults = (
       <SearchResults.Callout>
         <div className="search-callout-content">
           <div className="trophy-icon-div">
-            <img src="/img/icon-trophy.gif" />
+            <img src="/img/icon-trophy.gif" alt="trophy" />
           </div>
 
           <div className="search-callout-text">
