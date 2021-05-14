@@ -1,0 +1,19 @@
+/**
+* @component ExploreNearbyCard
+* @el explore-nearby__card
+*/
+.ExploreNearbyCard,
+.explore-nearby__card{
+    display: flex;
+    width: 100%;
+}
+
+/**
+ * @component ExploreNearbyCardList
+ * @el explore-nearby__card-list
+ */
+.explore-nearby__card-list{
+    columns: 3;
+    display: block;
+    width: 100%;
+}
