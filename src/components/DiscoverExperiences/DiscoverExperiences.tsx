@@ -37,7 +37,7 @@ export function DiscoverExperiences({children}: IDiscoverExperiences){
         'discover-experiences',
     );
     return (<>
-        <div className={className}>
+        <section className={className}>
             <h2>
                 Discover Experiences
             </h2>
@@ -61,6 +61,6 @@ export function DiscoverExperiences({children}: IDiscoverExperiences){
                     description='Local things to do, wherever you are.'
                 />
             </DiscoverExperienceCard.List>
-        </div>
+        </section>
     </>);
 }

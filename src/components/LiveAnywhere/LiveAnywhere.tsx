@@ -34,11 +34,11 @@ export function LiveAnywhere({children}: ILiveAnywhere){
         'LiveAnywhere',
     );
     return (<>
-        <div className={className}>
+        <section className={className}>
             <h2>
                 Live Anywhere
             </h2>
             {children}
-        </div>
+        </section>
     </>);
 }
