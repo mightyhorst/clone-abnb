@@ -39,8 +39,8 @@ function App() {
             <HomePage />
           </Route>
           <Route path='/'>
-            <HomePage />
-            {/* <DetailsPage /> */}
+            {/* <HomePage /> */}
+            <DetailsPage />
           </Route>
         </Switch>
       </Router>
