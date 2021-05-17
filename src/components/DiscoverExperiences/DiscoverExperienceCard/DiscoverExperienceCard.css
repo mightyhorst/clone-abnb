@@ -15,9 +15,10 @@
  * @el discover-experience__card-list
  */
 .discover-experience__card-list{
-    columns: 3;
-    display: block;
+    display: flex;
     width: 100%;
+    justify-content: space-between;
+    column-gap: 2%;
 }
 
 /**

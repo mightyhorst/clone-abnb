@@ -15,9 +15,10 @@
  * @el live-anywhere__card-list
  */
 .live-anywhere__card-list{
-    columns: 4;
-    display: block;
+    display: flex;
     width: 100%;
+    justify-content: space-between;
+    column-gap: 2%;
 }
 
 /**
