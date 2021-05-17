@@ -23,17 +23,17 @@ import { IImage, Column, Map, Button, Icon } from "../../uikit";
 const images: IImage[] = [
   {
     id: "1",
-    imgSrc: "/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg",
+    imgSrc: "/img/home1.jpg",
     isActive: true
   },
   {
     id: "2",
-    imgSrc: "/img/36f53e61-db8d-403c-9122-5b761c0e4264.jpg",
+    imgSrc: "/img/home2.jpg",
     isActive: false
   },
   {
     id: "3",
-    imgSrc: "/img/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg",
+    imgSrc: "/img/home3.jpg",
     isActive: false
   }
 ];
