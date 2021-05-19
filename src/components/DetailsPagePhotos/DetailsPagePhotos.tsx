@@ -33,23 +33,23 @@ export function DetailsPagePhotos(props: IDetailsPagePhotos){
             <Photo.Col>
                 <Photo 
                     variant='featured' 
-                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                    src='/img/house1.jpg'
                     />
             </Photo.Col>
             <Photo.Col>
                 <Photo 
-                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                    src='/img/house2.jpg'
                 />
                 <Photo 
-                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                    src='/img/house3.jpg'
                 />
             </Photo.Col>
             <Photo.Col>
                 <Photo 
-                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                    src='/img/house4.jpg'
                 />
                 <Photo 
-                    src='/img/2f13349d-879d-43c6-83e3-8e5679291d53.jpg'
+                    src='/img/house1.jpg'
                 />
             </Photo.Col>
         </Photo.Container>
