@@ -1,21 +1,99 @@
 /**
  * @component DetailsPageHeaderLeft
  */
-.DetailsPageHeaderLeft{
-
+.page-header-title {
+  margin-bottom: 4px;
 }
-
-.DetailsPageHeaderLeft > span{
-    
+.page-header-title p {
+  color: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
 }
-
-.page-header-left__star{
-    
+.page-header-left__content {
+  display: flex;
 }
-.page-header-left__superhost{
-
+.page-header-left__star {
+  -webkit-box-align: center;
+  min-width: 0px;
+  margin-top: 8px;
+  align-items: center;
+  display: inline-flex;
 }
-.page-header-left__location{
-
+span.fa.fa-star.checked {
+  -webkit-box-align: center;
+  align-items: center;
+  color: #ff385c;
+  display: inline-flex;
+  margin-right: 4px;
+  min-width: 14px;
 }
-
+span.page-header-left__star strong {
+  line-height: 20px;
+  max-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  position: relative;
+  font-weight: 600;
+  overflow: clip;
+}
+span.page-header-left__star a {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(113, 113, 113);
+  text-decoration: underline;
+  padding-left: 4px;
+}
+span.sepration-dot {
+  color: rgb(113, 113, 113);
+  font-family: inherit;
+  font-weight: 400;
+  margin: 8px 8px 0px;
+}
+.page-header-left__superhost {
+  -webkit-box-align: center;
+  min-width: 0px;
+  margin-top: 8px;
+  align-items: center;
+  display: inline-flex;
+}
+i.fa.fa-heart {
+  color: #ff385c;
+  -webkit-box-align: center;
+  align-items: center;
+  display: inline-flex;
+  margin-right: 4px;
+  min-width: 14px;
+}
+.page-header-left__location {
+  min-width: 0px;
+  margin-top: 8px;
+}
+span.page-header-left__location a {
+  color: rgb(113, 113, 113);
+  text-decoration: underline;
+  line-height: 20px;
+  max-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  position: relative;
+  font-weight: 600;
+}
