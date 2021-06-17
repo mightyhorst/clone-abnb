@@ -52,4 +52,17 @@
   display: flex;
   border-radius: 12px;
   overflow: hidden;
+  height: 350px;
+  margin-bottom: 30px;
+}
+.double-small-images .Photo > img {
+  height: 175px;
+}
+.double-small-images .PhotoCol .Photo {
+  padding-bottom: 8px;
+}
+.Photo:hover img {
+  -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+  cursor: pointer;
 }
