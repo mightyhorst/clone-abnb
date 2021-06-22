@@ -35,3 +35,40 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+.house-detail {
+    padding-top: 32px;
+        padding-bottom: 32px;
+    border-bottom: 1px solid lightgray;
+}
+.house-detail-content {
+    line-height: 24px;
+}
+.house-detail-content p {
+    font-size: 16px;
+}
+.show-detail-btn {
+    margin-top: 16px;
+}
+.show-detail-btn a {
+    font-size: inherit ;
+    font-family: inherit ;
+    font-style: inherit ;
+    font-variant: inherit ;
+    line-height: inherit ;
+    appearance: none ;
+    background: transparent ;
+    border: 0px ;
+    cursor: pointer ;
+    margin: 0px ;
+    padding: 0px ;
+    user-select: auto ;
+    color: rgb(34, 34, 34) ;
+    text-decoration: underline ;
+    border-radius: 4px ;
+    font-weight: 600 ;
+    outline: none ;
+}
+.show-detail-btn a i {
+    margin-left: 4px;
+    color: rgb(34, 34, 34);
+}

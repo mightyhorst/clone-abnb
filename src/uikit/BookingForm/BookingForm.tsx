@@ -45,6 +45,8 @@ export function BookingForm({ children }: IBookingForm) {
               </header>
               <form action="#" className="booking-form__form">
                 <fieldset>
+
+                <div className='booking-form-calender'>
                   <Row>
                     <Col.Half>
                       <label htmlFor="booking-form__checkin">
@@ -65,6 +67,8 @@ export function BookingForm({ children }: IBookingForm) {
                       </label>
                     </Col.Half>
                   </Row>
+                </div>
+                  
                   <Row>
                     <Col>
                       <label htmlFor="booking-form__guests">
@@ -73,7 +77,6 @@ export function BookingForm({ children }: IBookingForm) {
                           <option value="2">2 guests</option>
                           <option value="3">3 guests</option>
                         </select>
-                        <i className="fa fa-chevron-down"></i>
                       </label>
                     </Col>
                   </Row>

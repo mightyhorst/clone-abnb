@@ -35,3 +35,38 @@
     font-family: inherit;
     font-weight: inherit;
 } 
+.house-stats {
+    padding-top: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.house-stats-details {
+    display: flex ;
+    margin-bottom: 24px ;
+}
+.house-stats-icon {
+    flex-shrink: 0 ;
+    min-width: 24px ;
+}
+.house-stats-content {
+    margin-left: 16px;
+}
+.house-stats-content h5 {
+    color: rgb(34, 34, 34) ;
+    font-weight: 600 ;
+    font-size: 16px ;
+    line-height: 20px ;
+    margin-bottom: 4px;
+}
+.house-stats-content span {
+    color: rgb(113, 113, 113) ;
+    font-weight: 400 ;
+    font-size: 14px ;
+    line-height: 20px;
+}
+.house-stats-icon svg {
+    display: block;
+    height: 24px; 
+    width: 24px; 
+    fill: currentcolor;
+}
