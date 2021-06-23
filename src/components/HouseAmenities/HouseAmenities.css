@@ -1,92 +1,132 @@
 /**
  * @component HouseAmenities
  */
-.HouseAmenities{
-    /**
+.HouseAmenities {
+  /**
      * @display
      */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /**
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
-
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+}
+.HouseAmenities h2 {
+  padding-bottom: 24px;
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+}
 /**
  * @el list 
  */
-.house-amenities__list{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
+.house-amenities__list {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
 }
-.house-amenities__list ul{
-    display: flex;
-    flex: 1 1 50%;
-    flex-direction: column;
-    height: 100%;
-    width: 50%;
+.house-amenities__list ul {
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
 }
-.house-amenities__list li{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
+.house-amenities__list li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  padding-bottom: 16px;
 }
 
 /**
  * @component Icon
  */
-.house-amenities__list li .Icon{
-    flex: 0 0;
-    width: 50px;
+.house-amenities__list li svg {
+  display: block;
+  height: 24px;
+  width: 24px;
+  fill: currentcolor;
+  margin-right: 16px;
+  margin-left: 0px;
 }
-.house-amenities__list li span{
-    flex: 1 1;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.house-amenities__list li span {
+  flex: 1 1;
+  height: 100%;
+  display: flex;
 }
 
 /**
  * @el footer
  */
-.house-amenities__footer{
-    flex: 1 1 100%;
+.house-amenities__footer {
+  flex: 1 1 100%;
+  margin-top: 24px;
 }
-.house-amenities__footer .Button{
-    font-weight: 500;
+.house-amenities__footer .Button {
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  touch-action: manipulation;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  padding: 13px 23px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  -webkit-tap-highlight-color: transparent;
+  border-color: rgb(34, 34, 34);
+  background: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
 }
 
 /**
  * @variant strikethrough
  */
-.strikethrough{
-    text-decoration: strikethrough;
+.strikethrough {
+  text-decoration: strikethrough;
 }

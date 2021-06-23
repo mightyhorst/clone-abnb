@@ -1,75 +1,136 @@
 /**
  * @component BookingDates
  */
-.BookingDates{
-    /**
+.BookingDates {
+  /**
      * @display
      */
-    display: block;
-    align-items: center;
-    justify-content: center;
-    /**
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
-
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.BookingDates h3 {
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+}
+.BookingDates p {
+  color: rgb(113, 113, 113);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 8px;
+}
 /**
  * @component table
  */
-.booking-dates__columns{
-
+.booking-dates__columns {
+  display: flex;
 }
 
 /**
  * @el footer
  */
-.booking-dates__footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.booking-dates__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
 }
 
 /**
  * @component keyboard button
  */
-.booking-dates__keyboard{
-    /**
+.booking-dates__keyboard {
+  /**
      * @display
      */
-     display: flex;
-     align-items: center;
-     justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  appearance: none;
+  display: inline-block;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+  touch-action: manipulation;
+  position: relative;
+  background: transparent;
+  transition: -ms-transform 0.25s ease 0s, -webkit-transform 0.25s ease 0s,
+    transform 0.25s ease 0s;
+  height: 30px;
+  width: 30px;
 }
-.booking-dates__keyboard > i.fa{
-
+.booking-dates__keyboard:hover,
+.booking-dates__clear-dates:hover {
+  border: none;
+  background: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
+}
+.booking-dates__keyboard > i.fa {
 }
 
 /**
  * @component clear dates
  */
-.booking-dates__clear-dates{
-    text-decoration: underline;
+.booking-dates__clear-dates {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px -8px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  touch-action: manipulation;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  outline: none;
+  padding: 8px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+  background: transparent;
+  color: rgb(34, 34, 34);
+  text-decoration: underline;
 }
