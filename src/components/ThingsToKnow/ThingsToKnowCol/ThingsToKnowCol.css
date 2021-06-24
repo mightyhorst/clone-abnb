@@ -1,9 +1,42 @@
 /**
  * @component ThingsToKnowCol
  */
-.ThingsToKnowCol{
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 calc(100% / 3);
-    width: calc(100% / 3);
+.ThingsToKnowCol {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 calc(100% / 3);
+  width: calc(100% / 3);
+}
+section.ThingsToKnowCol h3 {
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+section.ThingsToKnowCol li {
+  -webkit-box-align: baseline;
+  align-items: center;
+  display: flex;
+  margin-bottom: 8px;
+}
+section.ThingsToKnowCol a {
+  font-size: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+  color: rgb(34, 34, 34);
+  text-decoration: underline;
+  border-radius: 4px;
+  font-weight: 600;
+  outline: none;
+  margin-top: 24px;
+}
+section.ThingsToKnowCol a i {
+  margin-left: 5px;
+  font-size: 12px;
+}
+section.ThingsToKnowCol p {
+  margin-bottom: 8px;
 }

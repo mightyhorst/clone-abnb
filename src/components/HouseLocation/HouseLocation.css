@@ -1,64 +1,88 @@
 /**
  * @component HouseLocation
  */
-.HouseLocation{
-    /**
+.HouseLocation {
+  /**
      * @display
      */
-    display: block;
-    align-items: center;
-    justify-content: center;
-    /**
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid lightgray;
+}
 /**
  * @el HouseLocation h2
  */
-.HouseLocation h2{
-
+.HouseLocation h2 {
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 24px;
 }
 /**
  * @component HouseLocation LocationMap
  */
-.HouseLocation .LocationMap{
-
+.HouseLocation .LocationMap {
 }
 /**
  * @el HouseLocation h3, p
  */
-.HouseLocation h3{
-
+.HouseLocation h3 {
+  margin-top: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 20px;
+  margin-bottom: 16px;
 }
-.HouseLocation p{
-
+.HouseLocation a.Button {
+  font-size: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  line-height: inherit;
+  color: rgb(34, 34, 34);
+  text-decoration: underline;
+  border-radius: 4px;
+  font-weight: 600;
+  outline: none;
+  margin-top: 16px;
+}
+.HouseLocation p {
+  margin-bottom: 16px;
 }
 /**
  * @component HouseLocation Button
  */
-.HouseLocation .Button{
-
+.HouseLocation .Button {
 }

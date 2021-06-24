@@ -1,46 +1,108 @@
 /**
  * @component HouseReviews
  */
-.HouseReviews{
-    /**
+.HouseReviews {
+  /**
      * @display
      */
-    display: block;
-    align-items: center;
-    justify-content: center;
-    /**
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
 /**
  * @el show all reviews
  */
-.house-reviews__show-all-reviews{
-
+.house-reviews__summary {
+  display: flex;
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 32px;
 }
-.house-reviews__show-all-reviews .Button{
-
+section.Row.house-reviews__ratings {
+  margin-bottom: 10px;
+}
+.rating__val {
+  display: flex;
+  align-items: center;
+}
+.rating__val strong {
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 6px;
+  width: 20px;
+}
+section.Row.house-reviews__reviews {
+  margin-top: 40px;
+}
+.house-reviews__show-all-reviews {
+}
+.house-reviews__show-all-reviews .Button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  touch-action: manipulation;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  padding: 13px 23px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  -webkit-tap-highlight-color: transparent;
+  border-color: rgb(34, 34, 34);
+  background: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+}
+.house-reviews__show-all-reviews .Button:hover {
+  transform: scale(0.96);
+  border-color: rgb(0, 0, 0);
+  background: rgb(247, 247, 247);
+  color: rgb(34, 34, 34);
 }

@@ -1,59 +1,170 @@
 /**
  * @component HostDetails
  */
-.HostDetails{
-    /**
+.HostDetails {
+  /**
      * @display
      */
-    display: block;
-    align-items: center;
-    justify-content: center;
-    /**
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
-
-.host-details__profile{
-
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid lightgray;
 }
-.host-details__title{
-
+section.HostDetails header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
-.host-details__rewards{
-
+.host-details__profile {
+  display: flex;
+  align-items: baseline;
+  margin-right: 16px;
 }
-.host-details__stats{
-
+.host-details__profile img {
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  display: block;
 }
-.host-details__protection{
-    
+.host-details__profile svg {
+  margin-left: -12px;
 }
-.host-details__protection > svg{
-
+.host-details__title {
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 26px;
 }
-.host-details__protection > p{
-
+.host-details__title sub {
+  color: rgb(113, 113, 113);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 8px;
+}
+.host-details__rewards {
+  display: flex;
+}
+ul.host-details__rewards li svg {
+  display: block;
+  height: 16px;
+  width: 16px;
+  fill: currentcolor;
+  color: #ff385c;
+  margin-right: 5px;
+}
+ul.host-details__rewards li {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+section.HostDetails h4 {
+  color: rgb(34, 34, 34);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+section.HostDetails p {
+  color: #222222;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  word-break: break-word;
+  padding-right: 50px;
+}
+ul.host-details__stats li {
+  margin-bottom: 16px;
+}
+.HostDetails a.Button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  touch-action: manipulation;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  padding: 13px 23px;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  -webkit-tap-highlight-color: transparent;
+  border-color: rgb(34, 34, 34);
+  background: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+}
+.HostDetails a.Button:hover {
+  border-color: rgb(0, 0, 0);
+  background: rgb(247, 247, 247);
+  color: rgb(34, 34, 34);
+}
+.host-details__protection svg {
+  margin-right: 16px;
+  width: 50px;
+}
+.host-details__stats {
+}
+.host-details__protection {
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.host-details__protection p {
+  font-size: 12px !important;
+  color: rgb(34, 34, 34);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.host-details__protection > svg {
+  width: 50px !important;
+}
+.host-details__protection p {
+  line-height: 18px !important;
+}
+.host-details__protection > p {
 }

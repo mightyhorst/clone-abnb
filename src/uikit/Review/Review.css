@@ -1,60 +1,77 @@
 /**
  * @component Review
  */
-.Review{
-    /**
+.Review {
+  /**
      * @display
      */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /**
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 40px;
+}
 
-.review__header{
-
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
 }
-.review__profile-img{
-    
+.review__profile-img {
 }
-.review__profile-img > img{
-
+.review__profile-img > img {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
 }
-.review__profile{
-    
+.review__profile {
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 12px;
 }
-.review__profile h3{
-
+.Review p {
+  line-height: 24px;
+  padding-right: 50px;
 }
-.review__profile h5{
-
+.review__profile h5 {
+  color: rgb(113, 113, 113);
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
-.review_read-more{
-    text-decoration: underline;
-    font-weight: 500;
+.review_read-more {
+  text-decoration: underline;
+  font-weight: 500;
+  color: rgb(113, 113, 113);
+}
+.review_read-more:hover {
+  text-decoration: underline;
 }
