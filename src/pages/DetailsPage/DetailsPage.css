@@ -37,3 +37,11 @@
   font-family: inherit;
   font-weight: inherit;
 }
+section.detail-bottom-section {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(247, 247, 247);
+}
+.places-to-visit {
+  border-bottom: 1px solid lightgray;
+}

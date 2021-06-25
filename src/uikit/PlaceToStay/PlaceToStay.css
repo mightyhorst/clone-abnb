@@ -1,81 +1,115 @@
 /**
  * @component PlaceToStay
  */
-.PlaceToStay{
-    /**
+.PlaceToStay {
+  /**
      * @display
      */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /**
+  display: block;
+  align-items: center;
+  justify-content: center;
+  /**
      * @theme
      */
-     background-color: transparent;
-     border: 1px solid rgba(0,0,0,0);
-     border: 0;
-     border-radius: 0px;
-    /**
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 0px;
+  /**
      * @boxmodel
      */
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    /**
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  /**
      * @position
      */
-    position: relative;
-    top: 0px;
-    left: 0px;
-    /**
+  position: relative;
+  top: 0px;
+  left: 0px;
+  /**
      * @font
      */
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-} 
-
-.place-to-stay__img{
-
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  border-width: 0px 10px;
+  max-width: 23.5%;
+  overflow: hidden;
+  flex: 0 0 25%;
+  margin-right: 20px;
 }
-.place-to-stay__img > img{
 
+.place-to-stay__img {
+  margin-bottom: 10px;
+}
+.place-to-stay__img > img {
+  height: 150px;
+  border-radius: 12px;
+  width: 100%;
+  object-fit: cover;
+}
+.place-to-stay__img i {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  color: white;
 }
 
 /**
  * @component .PlaceToStay .Button.love
  */
- .PlaceToStay .Button.love{
-
- }
+.PlaceToStay .Button.love {
+}
 
 /**
  * @el 
  */
-.place-to-stay__reviews{
-
+.place-to-stay__reviews {
+  -webkit-box-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin-bottom: 6px;
+  color: rgb(113, 113, 113);
+}
+.place-to-stay__total-rating {
+  color: rgb(34, 34, 34);
+  margin-right: 5px;
+}
+.place-to-stay__total-reviews {
+  color: rgb(113, 113, 113);
 }
 /**
  * @el 
  */
-.place-to-stay__details{
+.place-to-stay__details {
+  color: #222222;
+}
 
- }
-    .place-to-stay__room{
-
-    }
-    .place-to-stay__beds{
-
-    }
-    .place-to-stay__address{
-        
-    }
+.place-to-stay__room {
+}
+.place-to-stay__beds {
+}
+.place-to-stay__address {
+}
 
 /**
  * @el 
  */
-.place-to-stay__price{
-
+.place-to-stay__price {
+  margin-top: 4px;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(34, 34, 34);
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
-
+.place-to-stay__price strong {
+  font-weight: 800;
+}

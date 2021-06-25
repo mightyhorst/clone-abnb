@@ -27,6 +27,7 @@
 .Column.third {
   width: calc(100% / 3);
   flex-basis: calc(100% / 3);
+  height: 130vw;
 }
 .Column.TwoThirds,
 .Column.two-thirds {

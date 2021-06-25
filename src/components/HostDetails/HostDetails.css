@@ -134,6 +134,7 @@ ul.host-details__stats li {
   color: rgb(34, 34, 34);
 }
 .HostDetails a.Button:hover {
+  transform: scale(0.96);
   border-color: rgb(0, 0, 0);
   background: rgb(247, 247, 247);
   color: rgb(34, 34, 34);
